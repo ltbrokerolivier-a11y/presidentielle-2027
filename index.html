@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Présidentielle 2027 : les candidats</title>
+<meta name="description" content="Fiches neutres et sourcées sur tous les candidats déclarés à l'élection présidentielle française de 2027 : parcours, propositions, vidéos.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#fbfbf8,#0e1422);--panel:light-dark(#ffffff,#161e30);--ink:light-dark(#16213a,#e9ecf3);--mute:light-dark(#5a6478,#a3abbd);--metal:light-dark(#c9ced8,#33405c);--navy:#1b2a4a;--blue:#000091;--red:#e1000f;--chip:light-dark(#eef0f5,#222c42)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Public Sans",system-ui,sans-serif;overflow-x:clip}
+a{color:inherit}html{scroll-padding-top:72px}
+.band{padding:clamp(28px,4vw,64px) max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;line-height:1.05;text-wrap:balance;margin:0}
+h1{font-size:clamp(32px,5vw,52px);font-weight:800}
+h2{font-size:clamp(24px,3vw,32px);font-weight:800;margin-bottom:16px}
+.flag{height:6px;background:linear-gradient(90deg,var(--blue) 0 33.3%,#fff 33.3% 66.6%,var(--red) 66.6%)}
+header.band{background:var(--navy);color:#fff;padding-bottom:28px}
+.hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px;align-items:center}
+.hero svg{width:100%;height:auto}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero svg{max-width:360px}}
+header .lead{max-width:62ch;color:#d5dbe8;margin:14px 0 0}
+.count{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
+.count div{font-family:Archivo,system-ui,sans-serif;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1}
+.count small{display:block;font:600 13px "Public Sans",system-ui,sans-serif;color:#b8c1d6;margin-top:6px}
+nav.scroll{display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;padding:10px max(5vw,16px);background:var(--panel);border-bottom:1px solid var(--metal);position:sticky;top:0;z-index:5}
+nav.scroll a{flex:none;text-decoration:none;font-weight:600;font-size:14px;padding:10px 14px;border-radius:8px}
+nav.scroll a:hover,nav.scroll a:focus-visible{background:var(--chip)}
+.timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;border-top:3px solid var(--ink);padding:0;margin:8px 0 0}
+.timeline li{list-style:none;padding:12px 12px 0 0;position:relative}
+.timeline li::before{content:"";position:absolute;top:-9px;left:0;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--ink)}
+.timeline li.past::before{background:var(--ink)}
+.timeline b{display:block;font-family:Archivo,system-ui,sans-serif;font-size:17px;white-space:nowrap}
+.timeline span{font-size:14px;color:var(--mute)}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:22px}
+input,select,button{font:inherit;font-size:16px;color:inherit}
+input[type=search],select{min-height:44px;padding:8px 12px;border:1px solid var(--metal);border-radius:8px;background:var(--panel)}
+input[type=search]{flex:1 1 240px}
+button{min-height:44px;padding:8px 14px;border:1px solid var(--metal);border-radius:8px;background:var(--panel);cursor:pointer;font-weight:600}
+button:hover{background:var(--chip)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:18px}
+.board{position:relative;background:var(--panel);border:6px solid var(--metal);border-radius:4px;padding:16px 14px 14px;text-align:left;display:flex;flex-direction:column;gap:8px;min-height:210px;font-weight:400;box-shadow:0 2px 0 var(--metal)}
+.board:hover{border-color:var(--ink)}
+.num{position:absolute;top:-6px;right:-6px;background:var(--ink);color:var(--bg);font:800 15px Archivo,system-ui,sans-serif;padding:4px 9px;border-radius:0 4px 0 4px}
+.ini{width:56px;height:56px;border-radius:50%;background:var(--chip);display:grid;place-items:center;font:800 20px Archivo,system-ui,sans-serif;color:var(--ink)}
+.board h3{font-size:20px}
+.board .p{font-size:14px;color:var(--mute)}
+.board .meta{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:13px;background:var(--chip);border-radius:20px;padding:3px 10px;white-space:nowrap}
+.tag.warn{background:light-dark(#fff1d6,#3a2f14)}
+.empty{color:var(--mute);padding:20px 0}
+dialog{width:min(860px,100% - 24px);max-height:calc(100% - 24px);border:0;border-radius:10px;padding:0;background:var(--panel);color:var(--ink)}
+dialog::backdrop{background:rgb(10 15 30 / .6)}
+.dh{position:sticky;top:0;background:var(--navy);color:#fff;padding:20px 22px;display:flex;gap:14px;align-items:center}
+.dh .ini{background:#fff;color:var(--navy)}
+.dh h2{margin:0;color:#fff}.dh p{margin:4px 0 0;color:#d5dbe8;font-size:15px}
+.dh button{margin-left:auto;background:transparent;color:#fff;border-color:#55648a;flex:none}
+.db{padding:20px 22px 26px}
+.db h3{font-size:18px;margin:22px 0 8px}
+.db ul{padding-left:20px;margin:6px 0}.db li{margin:6px 0}
+.src{font-size:13px;color:var(--mute);white-space:nowrap}
+.src a{color:var(--mute)}
+.th{font-weight:700}
+.vids{display:flex;flex-wrap:wrap;gap:8px}
+.vids a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:8px;background:var(--chip);text-decoration:none;font-weight:600}
+.embed{aspect-ratio:16/9;width:100%;border:0;border-radius:8px;margin-top:10px}
+.cmp{display:grid;gap:12px}
+.cmp article{background:var(--panel);border:1px solid var(--metal);border-radius:8px;padding:14px 16px}
+.cmp h3{font-size:17px;margin-bottom:6px}
+.news{list-style:none;padding:0;margin:0}
+.news li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--metal)}
+.news time{font-weight:700;white-space:nowrap}
+.alt{background:var(--chip)}
+.method{max-width:70ch}
+footer{font-size:14px;color:var(--mute)}
+@media(max-width:600px){.news li{grid-template-columns:1fr;gap:2px}.dh{flex-wrap:wrap}}
+@media(prefers-reduced-motion:no-preference){.board{transition:border-color .15s,transform .15s}.board:hover{transform:translateY(-2px)}}
+</style>
+</head>
+<body>
+<div class="flag"></div>
+<header class="band"><div class="wrap hero"><div>
+  <h1>Présidentielle 2027 : tous les candidats, sans parti pris</h1>
+  <p class="lead">Une fiche identique pour chaque candidat : parcours, propositions avec leur source, vidéos. Classement alphabétique, aucun sondage, aucun commentaire.</p>
+  <div class="count" id="count"></div>
+</div><svg viewBox="0 0 470 170" role="img" aria-label="Rangée de panneaux électoraux numérotés"><defs><g id="pan"><rect x="0" y="0" width="60" height="84" rx="3" fill="#fff" stroke="#8a94a6" stroke-width="5"/><rect x="40" y="-4" width="22" height="16" rx="2" fill="#e1000f"/><circle cx="30" cy="34" r="12" fill="#e6e9f0"/><rect x="12" y="54" width="36" height="5" rx="2" fill="#c9ced8"/><rect x="16" y="64" width="28" height="4" rx="2" fill="#e6e9f0"/><rect x="27" y="84" width="6" height="40" fill="#8a94a6"/></g></defs><g font-size="11" font-weight="800" text-anchor="middle" font-family="Archivo,sans-serif" fill="#fff"><use href="#pan" x="20" y="40"/><text x="71" y="48">1</text><use href="#pan" x="92" y="30"/><text x="143" y="38">2</text><use href="#pan" x="164" y="40"/><text x="215" y="48">3</text><use href="#pan" x="236" y="30"/><text x="287" y="38">4</text><use href="#pan" x="308" y="40"/><text x="359" y="48">5</text><use href="#pan" x="380" y="30"/><text x="431" y="38">6</text></g><rect x="0" y="162" width="470" height="4" fill="#33405c"/></svg></div></header>
+<nav class="scroll" aria-label="Sections">
+  <a href="#candidats">Candidats</a><a href="#comparer">Comparer par thème</a><a href="#calendrier">Calendrier</a><a href="#actualites">Actualités</a><a href="#retires">Retraits</a><a href="#methode">Méthode</a>
+</nav>
+
+<section class="band" id="candidats"><div class="wrap">
+  <h2>Les candidats</h2>
+  <div class="tools">
+    <input type="search" id="q" placeholder="Rechercher un nom, un parti, une proposition…" aria-label="Rechercher">
+    <select id="filtre" aria-label="Filtrer">
+      <option value="tous">Tous les candidats</option>
+      <option value="programme">Avec propositions publiées</option>
+      <option value="intention">Intentions non confirmées</option>
+    </select>
+    <button id="melange" type="button">Ordre aléatoire</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="vide" hidden>Aucun candidat ne correspond à cette recherche.</p>
+</div></section>
+
+<section class="band alt" id="comparer"><div class="wrap">
+  <h2>Comparer par thème</h2>
+  <div class="tools"><select id="theme" aria-label="Choisir un thème"></select></div>
+  <div class="cmp" id="cmp"></div>
+</div></section>
+
+<section class="band" id="calendrier"><div class="wrap">
+  <h2>Calendrier officiel</h2>
+  <ol class="timeline" id="cal"></ol>
+</div></section>
+
+<section class="band alt" id="actualites"><div class="wrap">
+  <h2>Journal des mises à jour</h2>
+  <ul class="news" id="news"></ul>
+</div></section>
+
+<section class="band" id="retires"><div class="wrap">
+  <h2>Retraits et candidats non retenus</h2>
+  <ul class="news" id="ret"></ul>
+</div></section>
+
+<section class="band alt" id="methode"><div class="wrap method">
+  <h2>Méthode et neutralité</h2>
+  <p>Chaque candidat a la même fiche, avec les mêmes rubriques. Les candidats sont classés par ordre alphabétique de nom ; le numéro de panneau ne correspond pas au tirage officiel, qui sera fait par le Conseil constitutionnel.</p>
+  <p>Chaque proposition est reformulée de façon factuelle et renvoie à l'article ou au document d'où elle vient. Le site ne publie ni sondage, ni pronostic, ni avis. Une fiche courte signifie seulement que le candidat n'a pas encore publié de propositions détaillées, ou que nous ne les avons pas encore recensées.</p>
+  <p>La liste reste provisoire jusqu'à la publication officielle des candidats ayant obtenu leurs 500 parrainages, prévue le 26 mars 2027. Une erreur ? Signalez-la : elle sera corrigée.</p>
+  <footer><p id="maj"></p></footer>
+</div></section>
+
+<dialog id="fiche" aria-labelledby="fn"></dialog>
+
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+(async()=>{
+const raw=document.getElementById('data').textContent.trim();
+let D;
+try{D=raw.startsWith('{')?JSON.parse(raw):await (await fetch('data/candidats.json',{cache:'no-cache'})).json()}
+catch(e){document.getElementById('grid').textContent='Chargement impossible. Rechargez la page.';return}
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const $=id=>document.getElementById(id);
+const norm=s=>String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const fmt=d=>new Date(d+'T12:00:00').toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'});
+const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return 'source'}};
+const key=c=>norm(c.tri||c.nom);
+const alpha=[...D.candidats].sort((a,b)=>key(a).localeCompare(key(b)));
+alpha.forEach((c,i)=>c.n=i+1);
+let order=alpha;
+const ini=c=>(c.prenom[0]+(c.tri||c.nom)[0]).toUpperCase();
+const today=new Date();today.setHours(0,0,0,0);
+const days=d=>Math.ceil((new Date(d+'T00:00:00')-today)/864e5);
+const nDecl=D.candidats.filter(c=>c.statut==='declare').length;
+$('count').innerHTML=[
+ [nDecl,'candidatures déclarées'],
+ [Math.max(0,days(D.meta.premier_tour))+' j','avant le 1er tour, '+fmt(D.meta.premier_tour)],
+ [Math.max(0,days(D.meta.second_tour))+' j','avant le 2nd tour, '+fmt(D.meta.second_tour)]
+].map(([v,l])=>`<div>${esc(v)}<small>${esc(l)}</small></div>`).join('');
+function txt(c){return norm([c.prenom,c.nom,c.parti,c.fonction,c.declaration,...c.propositions.map(p=>p.theme+' '+p.texte)].join(' '))}
+function render(){
+ const q=norm($('q').value).trim();
+ const f=$('filtre').value;
+ const list=order.filter(c=>(!q||txt(c).includes(q))&&(f==='tous'||(f==='programme'&&c.propositions.length)||(f==='intention'&&c.statut!=='declare')));
+ $('grid').innerHTML=list.map(c=>`<button class="board" type="button" data-id="${esc(c.id)}" aria-label="Voir la fiche de ${esc(c.prenom+' '+c.nom)}">
+  <span class="num">${c.n}</span><span class="ini" aria-hidden="true">${esc(ini(c))}</span>
+  <h3>${esc(c.prenom)} ${esc(c.nom)}</h3><span class="p">${esc(c.parti)}</span>
+  <span class="meta">${c.statut!=='declare'?'<span class="tag warn">Intention</span>':''}<span class="tag">${c.propositions.length?c.propositions.length+' proposition'+(c.propositions.length>1?'s':''):'Programme à venir'}</span></span></button>`).join('');
+ $('vide').hidden=list.length>0;
+}
+$('q').addEventListener('input',render);$('filtre').addEventListener('change',render);
+$('melange').addEventListener('click',()=>{
+ if(order===alpha){order=[...alpha].sort(()=>Math.random()-.5);$('melange').textContent='Ordre alphabétique'}
+ else{order=alpha;$('melange').textContent='Ordre aléatoire'}
+ render();
+});
+$('grid').addEventListener('click',e=>{const b=e.target.closest('.board');if(b)open(b.dataset.id)});
+function open(id){
+ const c=D.candidats.find(x=>x.id===id);if(!c)return;
+ const byTheme={};c.propositions.forEach(p=>(byTheme[p.theme]=byTheme[p.theme]||[]).push(p));
+ const yt='https://www.youtube.com/results?search_query='+encodeURIComponent(c.prenom+' '+c.nom+' interview présidentielle 2027');
+ const prog='https://www.youtube.com/results?search_query='+encodeURIComponent(c.prenom+' '+c.nom+' programme 2027');
+ const vids=(c.videos||[]);
+ $('fiche').innerHTML=`<div class="dh"><span class="ini" aria-hidden="true">${esc(ini(c))}</span><div><h2 id="fn">${esc(c.prenom)} ${esc(c.nom)}</h2><p>${esc(c.parti)}${c.fonction?' · '+esc(c.fonction):''}</p></div><button type="button" id="close">Fermer</button></div>
+ <div class="db">
+  <h3>Candidature</h3><p>${esc(c.declaration)}</p>
+  ${c.parcours.length?`<h3>Repères</h3><ul>${c.parcours.map(p=>`<li>${esc(p)}</li>`).join('')}</ul>`:''}
+  <h3>Propositions</h3>
+  ${c.propositions.length?Object.entries(byTheme).map(([t,ps])=>`<p class="th">${esc(t)}</p><ul>${ps.map(p=>`<li>${esc(p.texte)} <span class="src">— <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(host(p.source))}</a></span></li>`).join('')}</ul>`).join(''):'<p>Aucune proposition détaillée recensée à ce jour.</p>'}
+  <h3>Vidéos et interviews</h3>
+  ${vids.map(v=>v.youtube?`<iframe class="embed" src="https://www.youtube-nocookie.com/embed/${esc(v.youtube)}" title="${esc(v.titre)}" loading="lazy" allowfullscreen></iframe><p class="src">${esc(v.titre)} — ${esc(v.date||'')}</p>`:`<p><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titre)}</a></p>`).join('')}
+  <div class="vids"><a href="${esc(yt)}" target="_blank" rel="noopener">Interviews sur YouTube</a><a href="${esc(prog)}" target="_blank" rel="noopener">Présentations du programme</a></div>
+  ${(c.liens||[]).length?`<h3>Liens officiels</h3><ul>${c.liens.map(l=>`<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('')}</ul>`:''}
+  <h3>Sources</h3><ul>${c.sources.map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(host(s))}</a></li>`).join('')}</ul>
+ </div>`;
+ const d=$('fiche');d.showModal?d.showModal():d.setAttribute('open','');
+ $('close').addEventListener('click',()=>d.close?d.close():d.removeAttribute('open'));
+}
+$('fiche').addEventListener('click',e=>{if(e.target===$('fiche'))$('fiche').close()});
+const themes=[...new Set(D.candidats.flatMap(c=>c.propositions.map(p=>p.theme)))].sort((a,b)=>a.localeCompare(b,'fr'));
+$('theme').innerHTML=themes.map(t=>`<option>${esc(t)}</option>`).join('');
+function cmp(){
+ const t=$('theme').value;
+ const rows=alpha.map(c=>[c,c.propositions.filter(p=>p.theme===t)]).filter(([,ps])=>ps.length);
+ $('cmp').innerHTML=rows.map(([c,ps])=>`<article><h3>${esc(c.prenom)} ${esc(c.nom)} <span class="src">${esc(c.parti)}</span></h3><ul>${ps.map(p=>`<li>${esc(p.texte)} <span class="src">— <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(host(p.source))}</a></span></li>`).join('')}</ul></article>`).join('')+`<p class="src">Seuls les candidats ayant publié une proposition sur ce thème apparaissent.</p>`;
+}
+$('theme').value=themes.includes('Finances publiques')?'Finances publiques':themes[0];
+$('theme').addEventListener('change',cmp);cmp();
+$('cal').innerHTML=D.calendrier.map(e=>`<li class="${days(e.date)<0?'past':''}"><b>${esc(fmt(e.date))}</b><span>${esc(e.label)}</span></li>`).join('');
+const nl=a=>a.map(n=>`<li><time>${esc(n.date?fmt(n.date):n.nom)}</time><span>${n.date?'':'<b>'+esc(n.parti)+'</b> — '}${esc(n.texte)} <span class="src">— <a href="${esc(n.source)}" target="_blank" rel="noopener">${esc(host(n.source))}</a></span></span></li>`).join('');
+$('news').innerHTML=nl([...D.actualites].sort((a,b)=>b.date.localeCompare(a.date)));
+$('ret').innerHTML=nl(D.retires);
+$('maj').textContent='Dernière mise à jour : '+fmt(D.meta.derniere_mise_a_jour)+'.';
+render();
+const h=location.hash.slice(1);if(h&&D.candidats.some(c=>c.id===h))open(h);
+})();
+</script>
+</body>
+</html>
