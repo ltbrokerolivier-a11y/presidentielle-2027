@@ -1,317 +1,1048 @@
 {
   "meta": {
-    "derniere_mise_a_jour": "2026-11-24",
+    "derniere_mise_a_jour": "2026-11-25",
     "premier_tour": "2027-04-18",
     "second_tour": "2027-05-02"
   },
   "calendrier": [
-    {"date": "2026-10-01", "label": "Début de la période pré-électorale pour la communication publique", "source": "https://www.vie-publique.fr/election-presidentielle-2027-regles-du-scrutin-role-du-president"},
-    {"date": "2026-12-13", "label": "Vote des militants Les Écologistes sur leur stratégie présidentielle", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"date": "2027-03-12", "label": "Date limite d'inscription sur les listes électorales et de dépôt des parrainages", "source": "https://www.info.gouv.fr/actualite/tout-ce-qu-il-faut-savoir-sur-l-election-presidentielle"},
-    {"date": "2027-03-26", "label": "Publication de la liste officielle des candidats par le Conseil constitutionnel", "source": "https://www.vie-publique.fr/election-presidentielle-2027-regles-du-scrutin-role-du-president"},
-    {"date": "2027-04-18", "label": "Premier tour", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A15053"},
-    {"date": "2027-05-02", "label": "Second tour", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A15053"}
+    {
+      "date": "2026-10-01",
+      "label": "Début de la période pré-électorale pour la communication publique",
+      "source": "https://www.vie-publique.fr/election-presidentielle-2027-regles-du-scrutin-role-du-president"
+    },
+    {
+      "date": "2026-12-13",
+      "label": "Vote des militants Les Écologistes sur leur stratégie présidentielle",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2027-03-12",
+      "label": "Date limite d'inscription sur les listes électorales et de dépôt des parrainages",
+      "source": "https://www.info.gouv.fr/actualite/tout-ce-qu-il-faut-savoir-sur-l-election-presidentielle"
+    },
+    {
+      "date": "2027-03-26",
+      "label": "Publication de la liste officielle des candidats par le Conseil constitutionnel",
+      "source": "https://www.vie-publique.fr/election-presidentielle-2027-regles-du-scrutin-role-du-president"
+    },
+    {
+      "date": "2027-04-18",
+      "label": "Premier tour",
+      "source": "https://www.service-public.gouv.fr/particuliers/actualites/A15053"
+    },
+    {
+      "date": "2027-05-02",
+      "label": "Second tour",
+      "source": "https://www.service-public.gouv.fr/particuliers/actualites/A15053"
+    }
   ],
   "actualites": [
-    {"date": "2026-11-21", "texte": "François Ruffin (Debout !) retire sa candidature et ne soutient aucun autre candidat.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"date": "2026-11-20", "texte": "Dominique de Villepin déclare sa candidature sous l'étiquette La France humaniste.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"date": "2026-11-18", "texte": "Édouard Philippe présente le « volume 1 » de son programme (142 propositions).", "source": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"},
-    {"date": "2026-11-18", "texte": "Marine Tondelier se dit « prête à une coalition » autour de Jean-Luc Mélenchon ; son parti tranchera le 13 décembre.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"date": "2026-11-10", "texte": "Éric Zemmour officialise sa candidature au journal de 20 h de TF1.", "source": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"},
-    {"date": "2026-11-09", "texte": "Raphaël Glucksmann présente son plan pour une « République écologique » (200 milliards d'euros d'investissements).", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"},
-    {"date": "2026-11-09", "texte": "Teddy Riner annonce sa candidature dans Le Parisien.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"date": "2026-11-06", "texte": "La France insoumise publie la nouvelle édition de L'Avenir en commun, programme de Jean-Luc Mélenchon.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-    {"date": "2026-10-12", "texte": "Bruno Retailleau présente un plan de 197 milliards d'euros d'économies d'ici 2032.", "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"},
-    {"date": "2026-10-06", "texte": "Marine Le Pen présente son programme budgétaire : 140 milliards d'euros d'économies nettes d'ici 2032.", "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"}
+    {
+      "date": "2026-11-24",
+      "texte": "Édouard Philippe annonce vouloir rendre obligatoire la vaccination contre les papillomavirus.",
+      "source": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la"
+    },
+    {
+      "date": "2026-11-23",
+      "texte": "Génération.s officialise son soutien à Jean-Luc Mélenchon (vote des adhérents à 85 %).",
+      "source": "https://lcp.fr/actualites/presidentielle-generations-officialise-son-soutien-a-jean-luc-melenchon-445502"
+    },
+    {
+      "date": "2026-11-21",
+      "texte": "François Ruffin (Debout !) retire sa candidature et ne soutient aucun autre candidat.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2026-11-20",
+      "texte": "Dominique de Villepin déclare sa candidature sous l'étiquette La France humaniste.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2026-11-18",
+      "texte": "Édouard Philippe présente le « volume 1 » de son programme (142 propositions).",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"
+    },
+    {
+      "date": "2026-11-18",
+      "texte": "Marine Tondelier se dit « prête à une coalition » autour de Jean-Luc Mélenchon ; son parti tranchera le 13 décembre.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2026-11-10",
+      "texte": "Éric Zemmour officialise sa candidature au journal de 20 h de TF1.",
+      "source": "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle"
+    },
+    {
+      "date": "2026-11-09",
+      "texte": "Raphaël Glucksmann présente son plan pour une « République écologique » (200 milliards d'euros d'investissements).",
+      "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+    },
+    {
+      "date": "2026-11-09",
+      "texte": "Teddy Riner annonce sa candidature dans Le Parisien.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2026-11-06",
+      "texte": "La France insoumise publie la nouvelle édition de L'Avenir en commun, programme de Jean-Luc Mélenchon.",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+    },
+    {
+      "date": "2026-10-12",
+      "texte": "Bruno Retailleau présente un plan de 197 milliards d'euros d'économies d'ici 2032.",
+      "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
+    },
+    {
+      "date": "2026-10-06",
+      "texte": "Marine Le Pen présente son programme budgétaire : 140 milliards d'euros d'économies nettes d'ici 2032.",
+      "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+    }
   ],
   "candidats": [
     {
-      "id": "arthaud", "prenom": "Nathalie", "nom": "Arthaud", "parti": "Lutte ouvrière", "statut": "declare",
-      "fonction": "Porte-parole de Lutte ouvrière",
+      "id": "arthaud",
+      "prenom": "Nathalie",
+      "nom": "Arthaud",
+      "parti": "Lutte ouvrière",
+      "statut": "declare",
+      "fonction": "Porte-parole de Lutte ouvrière (depuis décembre 2008), enseignante",
+      "declaration": "Candidature déclarée — sa quatrième à une présidentielle.",
+      "parcours": [
+        "Candidate en 2012 (0,56 %), 2017 (0,64 %) et 2022 (0,56 %)",
+        "Premier meeting de campagne le 26 septembre 2026 à la Mutualité (Paris)"
+      ],
+      "propositions": [
+        {
+          "theme": "Salaires",
+          "texte": "SMIC à 2 200 euros net.",
+          "source": "https://www.lagazettefrance.fr/article/plus-leon-trotski-que-leon-xiv-premier-meeting-de-campagne-pour-arthaud-et-lo"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.lagazettefrance.fr/article/plus-leon-trotski-que-leon-xiv-premier-meeting-de-campagne-pour-arthaud-et-lo"
+      ]
+    },
+    {
+      "id": "asselineau",
+      "prenom": "François",
+      "nom": "Asselineau",
+      "parti": "Union populaire républicaine (UPR)",
+      "statut": "declare",
+      "fonction": "Président de l'UPR (depuis 2007)",
+      "declaration": "Intention annoncée dans Le Dauphiné libéré le 31 août 2023.",
+      "parcours": [
+        "Conseiller de Paris (2001-2008)",
+        "Candidat en 2017 : 9e, 0,92 %"
+      ],
+      "propositions": [
+        {
+          "theme": "Europe",
+          "texte": "Sortie de la France de l'Union européenne et de l'euro ; demande de débats télévisés sur ce sujet (agriculture, industrie, euro, géopolitique).",
+          "source": "https://www.upr.fr/wp-content/uploads/2026/01/Lettre_ouverte_d_Asselineau_aux_syndicats_agricoles.pdf"
+        }
+      ],
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027",
+        "https://www.upr.fr/wp-content/uploads/2026/01/Lettre_ouverte_d_Asselineau_aux_syndicats_agricoles.pdf"
+      ]
+    },
+    {
+      "id": "attal",
+      "prenom": "Gabriel",
+      "nom": "Attal",
+      "parti": "Renaissance",
+      "statut": "declare",
+      "fonction": "Secrétaire général de Renaissance, ancien Premier ministre",
+      "declaration": "Candidature officialisée le 22 mai 2026 depuis l'Aveyron.",
+      "parcours": [
+        "Ancien ministre de l'Éducation nationale",
+        "Ancien Premier ministre (2024)"
+      ],
+      "propositions": [
+        {
+          "theme": "Priorités",
+          "texte": "Quatre « chantiers capitaux » : école, salaires, frontières et intelligence artificielle.",
+          "source": "https://www.sudradio.fr/societe/ecole-salaires-frontieres-et-ia-les-quatre-chantiers-capitaux-presidentiels-de-gabriel-attal"
+        },
+        {
+          "theme": "École",
+          "texte": "Moins de 20 élèves par classe en primaire ; mieux rémunérer les professeurs et les AESH.",
+          "source": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
+        },
+        {
+          "theme": "École",
+          "texte": "Une loi de programmation pour l'école, pilotée par un ministre qui resterait en poste cinq ans ; généralisation des groupes de niveau au collège ; retour du certificat d'études.",
+          "source": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"
+        },
+        {
+          "theme": "Salaires",
+          "texte": "Réduire l'écart entre salaire brut et salaire net, financé par des économies sur les dépenses sociales et une réforme de l'assurance-chômage.",
+          "source": "https://www.sudradio.fr/societe/ecole-salaires-frontieres-et-ia-les-quatre-chantiers-capitaux-presidentiels-de-gabriel-attal"
+        },
+        {
+          "theme": "Immigration",
+          "texte": "Une « préférence travail » pour l'immigration, avec un système de quotas et une dimension européenne.",
+          "source": "https://www.dhnet.be/dernieres-depeches/2026/05/30/presidentielle-en-meeting-attal-vante-sa-force-dagir-et-expose-sa-promesse-francaise-U2TTRNIMBNBTFDJKTXRIT5IHE4/"
+        },
+        {
+          "theme": "Finances publiques",
+          "texte": "100 000 postes de fonctionnaires en moins par non-remplacement de départs à la retraite et départs volontaires, en préservant certains ministères.",
+          "source": "https://acteurspublics.fr/articles/gabriel-attal-propose-100-000-fonctionnaires-en-moins-et-limpunite-zero-pour-les-ministres-depensiers/"
+        }
+      ],
+      "sources": [
+        "https://www.europe1.fr/node/937421"
+      ]
+    },
+    {
+      "id": "batho",
+      "prenom": "Delphine",
+      "nom": "Batho",
+      "parti": "Génération Écologie",
+      "statut": "declare",
+      "fonction": "Présidente de Génération écologie, députée des Deux-Sèvres",
+      "declaration": "Candidature annoncée dans L'Obs le 25 novembre 2025 ; opposée à une primaire de la gauche, ouverte à une primaire entre écologistes.",
+      "parcours": [
+        "Ministre de l'Écologie (2012-2013)",
+        "Candidate à la primaire écologiste de 2022"
+      ],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie"
+      ]
+    },
+    {
+      "id": "becht",
+      "prenom": "Olivier",
+      "nom": "Becht",
+      "parti": "Sans étiquette (centre)",
+      "statut": "declare",
+      "fonction": "Député du Haut-Rhin",
+      "declaration": "Candidature déclarée le 24 septembre 2026 dans Paris Match ; il revendique le label « extrême centre ».",
+      "parcours": [
+        "Maire de Rixheim (à partir de 2008)",
+        "Député du Haut-Rhin depuis 2017",
+        "Ministre délégué au Commerce extérieur (2022-2024)"
+      ],
+      "propositions": [
+        {
+          "theme": "Programme",
+          "texte": "Projet intitulé « Le Projet France, Refonder ou Périr ».",
+          "source": "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee"
+        },
+        {
+          "theme": "Énergie",
+          "texte": "Produire des carburants de synthèse et une énergie décarbonée fabriquée en France.",
+          "source": "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee"
+        },
+        {
+          "theme": "Protection sociale",
+          "texte": "Système universel tout au long de la vie, fondé sur la réciprocité entre droits et devoirs.",
+          "source": "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee"
+        },
+        {
+          "theme": "Sécurité",
+          "texte": "Créer des « centres de redressement » encadrés par d'anciens militaires, avec travail et apprentissage d'un métier.",
+          "source": "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee"
+      ]
+    },
+    {
+      "id": "bertrand",
+      "prenom": "Xavier",
+      "nom": "Bertrand",
+      "parti": "Nous France",
+      "statut": "declare",
+      "fonction": "Président de la région Hauts-de-France",
+      "declaration": "A confirmé le 27 août 2026 (université du Medef) qu'il serait candidat, avec une déclaration prévue en fin d'année ; envisage une candidature indépendante et refuse une primaire.",
+      "parcours": [
+        "Ministre dans les gouvernements Raffarin, Villepin et Fillon (2004-2012)"
+      ],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election"
+      ]
+    },
+    {
+      "id": "billetdoux",
+      "prenom": "Augustin",
+      "nom": "Billetdoux",
+      "parti": "Non précisé",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature annoncée (citée par LCP parmi les personnalités moins connues).",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+      ]
+    },
+    {
+      "id": "bouamrane",
+      "prenom": "Karim",
+      "nom": "Bouamrane",
+      "parti": "Parti socialiste / La France Humaine et Forte",
+      "statut": "declare",
+      "fonction": "Maire de Saint-Ouen-sur-Seine",
+      "declaration": "Candidature déclarée sans passer par la primaire de la gauche.",
+      "parcours": [
+        "Soutien de Manuel Valls à la primaire de la gauche en 2017",
+        "Opposant au premier secrétaire du PS Olivier Faure, critique des alliances avec LFI"
+      ],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"
+      ]
+    },
+    {
+      "id": "branco",
+      "prenom": "Juan",
+      "nom": "Branco",
+      "parti": "Les Ruches",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
+    },
+    {
+      "id": "cazeneuve",
+      "prenom": "Bernard",
+      "nom": "Cazeneuve",
+      "parti": "La Convention",
+      "statut": "declare",
+      "fonction": "Ancien Premier ministre",
+      "declaration": "Candidature déclarée sans participer à la primaire de la gauche.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
+    },
+    {
+      "id": "cheve",
+      "prenom": "Joël",
+      "nom": "Chevé",
+      "parti": "La France adulte",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature annoncée (citée par LCP parmi les personnalités moins connues).",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+      ]
+    },
+    {
+      "id": "collovati",
+      "prenom": "Christian",
+      "nom": "Collovati",
+      "parti": "Non précisé",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature annoncée (citée par LCP parmi les personnalités moins connues).",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+      ]
+    },
+    {
+      "id": "dupont-aignan",
+      "prenom": "Nicolas",
+      "nom": "Dupont-Aignan",
+      "parti": "Debout la France",
+      "statut": "declare",
+      "fonction": "Président de Debout la France",
       "declaration": "Candidature déclarée — sa quatrième à une présidentielle.",
       "parcours": [],
       "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "asselineau", "prenom": "François", "nom": "Asselineau", "parti": "Union populaire républicaine (UPR)", "statut": "declare",
-      "fonction": "Président de l'UPR (depuis 2007)",
-      "declaration": "Intention annoncée dans Le Dauphiné libéré le 31 août 2023.",
-      "parcours": ["Conseiller de Paris (2001-2008)", "Candidat en 2017 : 9e, 0,92 %"],
+      "id": "durif",
+      "prenom": "Sylvain",
+      "nom": "Durif",
+      "parti": "Sans étiquette",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée ; aucun programme publié à ce jour.",
+      "parcours": [],
       "propositions": [],
-      "sources": ["https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027"]
+      "sources": [
+        "https://www.candidatspresidentielles2027.fr/"
+      ]
     },
     {
-      "id": "attal", "prenom": "Gabriel", "nom": "Attal", "parti": "Renaissance", "statut": "declare",
-      "fonction": "Secrétaire général de Renaissance, ancien Premier ministre",
-      "declaration": "Candidature officialisée le 22 mai 2026 depuis l'Aveyron.",
-      "parcours": ["Ancien ministre de l'Éducation nationale", "Ancien Premier ministre (2024)"],
-      "propositions": [
-        {"theme": "Priorités", "texte": "Quatre « chantiers capitaux » : école, salaires, frontières et intelligence artificielle.", "source": "https://www.sudradio.fr/societe/ecole-salaires-frontieres-et-ia-les-quatre-chantiers-capitaux-presidentiels-de-gabriel-attal"},
-        {"theme": "École", "texte": "Moins de 20 élèves par classe en primaire ; mieux rémunérer les professeurs et les AESH.", "source": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"},
-        {"theme": "École", "texte": "Une loi de programmation pour l'école, pilotée par un ministre qui resterait en poste cinq ans ; généralisation des groupes de niveau au collège ; retour du certificat d'études.", "source": "https://lcp.fr/actualites/presidentielle-retour-du-certificat-d-etudes-revalorisation-des-salaires-ce-que-propose"},
-        {"theme": "Salaires", "texte": "Réduire l'écart entre salaire brut et salaire net, financé par des économies sur les dépenses sociales et une réforme de l'assurance-chômage.", "source": "https://www.sudradio.fr/societe/ecole-salaires-frontieres-et-ia-les-quatre-chantiers-capitaux-presidentiels-de-gabriel-attal"},
-        {"theme": "Immigration", "texte": "Une « préférence travail » pour l'immigration, avec un système de quotas et une dimension européenne.", "source": "https://www.dhnet.be/dernieres-depeches/2026/05/30/presidentielle-en-meeting-attal-vante-sa-force-dagir-et-expose-sa-promesse-francaise-U2TTRNIMBNBTFDJKTXRIT5IHE4/"},
-        {"theme": "Finances publiques", "texte": "100 000 postes de fonctionnaires en moins par non-remplacement de départs à la retraite et départs volontaires, en préservant certains ministères.", "source": "https://acteurspublics.fr/articles/gabriel-attal-propose-100-000-fonctionnaires-en-moins-et-limpunite-zero-pour-les-ministres-depensiers/"}
-      ],
-      "sources": ["https://www.europe1.fr/node/937421"]
-    },
-    {
-      "id": "batho", "prenom": "Delphine", "nom": "Batho", "parti": "Génération Écologie", "statut": "declare",
-      "fonction": "Ancienne ministre",
+      "id": "egger",
+      "prenom": "Clara",
+      "nom": "Egger",
+      "parti": "Solution démocratique",
+      "statut": "declare",
+      "fonction": "",
       "declaration": "Candidature déclarée.",
-      "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "parcours": [],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Programme centré sur une seule mesure : le référendum d'initiative citoyenne (RIC).",
+          "source": "https://www.candidatspresidentielles2027.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "becht", "prenom": "Olivier", "nom": "Becht", "parti": "Sans étiquette (centre)", "statut": "declare",
-      "fonction": "Député du Haut-Rhin",
-      "declaration": "Candidature déclarée le 24 septembre 2026 ; il revendique le label « extrême centre ».",
-      "parcours": ["Ministre délégué au Commerce extérieur (2022-2024)"], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "bertrand", "prenom": "Xavier", "nom": "Bertrand", "parti": "Nous France", "statut": "declare",
-      "fonction": "Président de la région Hauts-de-France",
-      "declaration": "A annoncé le 27 août 2026 qu'il serait candidat avant la fin de l'année ; refuse de participer à une primaire.",
-      "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "bouamrane", "prenom": "Karim", "nom": "Bouamrane", "parti": "Parti socialiste / La France Humaine et Forte", "statut": "declare",
-      "fonction": "Maire de Saint-Ouen-sur-Seine",
-      "declaration": "Candidature déclarée sans passer par la primaire de la gauche.",
-      "parcours": ["Soutien de Manuel Valls à la primaire de la gauche en 2017", "Opposant au premier secrétaire du PS Olivier Faure, critique des alliances avec LFI"], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/", "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"]
-    },
-    {
-      "id": "branco", "prenom": "Juan", "nom": "Branco", "parti": "Les Ruches", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "cazeneuve", "prenom": "Bernard", "nom": "Cazeneuve", "parti": "La Convention", "statut": "declare",
-      "fonction": "Ancien Premier ministre",
-      "declaration": "Candidature déclarée sans participer à la primaire de la gauche.",
-      "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "dupont-aignan", "prenom": "Nicolas", "nom": "Dupont-Aignan", "parti": "Debout la France", "statut": "declare",
-      "fonction": "Président de Debout la France",
-      "declaration": "Candidature déclarée — sa quatrième à une présidentielle.",
-      "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "durif", "prenom": "Sylvain", "nom": "Durif", "parti": "Sans étiquette", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée ; aucun programme publié à ce jour.", "parcours": [], "propositions": [],
-      "sources": ["https://www.candidatspresidentielles2027.fr/"]
-    },
-    {
-      "id": "egger", "prenom": "Clara", "nom": "Egger", "parti": "Solution démocratique", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [],
-      "propositions": [{"theme": "Institutions", "texte": "Programme centré sur une seule mesure : le référendum d'initiative citoyenne (RIC).", "source": "https://www.candidatspresidentielles2027.fr/"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
-    },
-    {
-      "id": "glucksmann", "prenom": "Raphaël", "nom": "Glucksmann", "parti": "Place publique, soutenu par le PS", "statut": "declare",
+      "id": "glucksmann",
+      "prenom": "Raphaël",
+      "nom": "Glucksmann",
+      "parti": "Place publique, soutenu par le PS",
+      "statut": "declare",
       "fonction": "Député européen, fondateur de Place publique",
       "declaration": "Vainqueur de la primaire « Choisir 2027 » (9-11 octobre 2026) dès le premier tour avec 66,13 %.",
-      "parcours": ["Primaire organisée avec le PS, Place publique et la GRS"],
-      "propositions": [
-        {"theme": "Écologie", "texte": "Inscrire la « République écologique » à l'article 1er de la Constitution et adopter une loi de programmation écologique.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"},
-        {"theme": "Investissement", "texte": "200 milliards d'euros d'investissements publics, financés notamment par une contribution exceptionnelle de 5 %, sur une année, sur les patrimoines de plus de 100 millions d'euros.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"},
-        {"theme": "Pouvoir d'achat", "texte": "Leasing social pour 1 million de petites voitures électriques à 100 € par mois ; chèque énergie exceptionnel de 500 € pour 6 millions de familles ; moratoire sur les hausses de taxes sur l'électricité.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"},
-        {"theme": "Épargne", "texte": "Un livret de souveraineté écologique et sociale fusionnant livret A et LDDS, plafond doublé, taux de 2,5 %.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"},
-        {"theme": "Jeunesse", "texte": "Un « Pass Mobilité Durable » à 1 € par jour pour les moins de 25 ans ; baisse de la CSG sur les bas salaires.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"}
+      "parcours": [
+        "Primaire organisée avec le PS, Place publique et la GRS"
       ],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "propositions": [
+        {
+          "theme": "Écologie",
+          "texte": "Inscrire la « République écologique » à l'article 1er de la Constitution et adopter une loi de programmation écologique.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        },
+        {
+          "theme": "Investissement",
+          "texte": "200 milliards d'euros d'investissements publics, financés notamment par une contribution exceptionnelle de 5 %, sur une année, sur les patrimoines de plus de 100 millions d'euros.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        },
+        {
+          "theme": "Pouvoir d'achat",
+          "texte": "Leasing social pour 1 million de petites voitures électriques à 100 € par mois ; chèque énergie exceptionnel de 500 € pour 6 millions de familles ; moratoire sur les hausses de taxes sur l'électricité.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        },
+        {
+          "theme": "Épargne",
+          "texte": "Un livret de souveraineté écologique et sociale fusionnant livret A et LDDS, plafond doublé, taux de 2,5 %.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        },
+        {
+          "theme": "Jeunesse",
+          "texte": "Un « Pass Mobilité Durable » à 1 € par jour pour les moins de 25 ans ; baisse de la CSG sur les bas salaires.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "kazib", "prenom": "Anasse", "nom": "Kazib", "parti": "Révolution permanente", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "kazib",
+      "prenom": "Anasse",
+      "nom": "Kazib",
+      "parti": "Révolution permanente",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "labib", "prenom": "Selma", "nom": "Labib", "parti": "NPA-Révolutionnaires", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "labib",
+      "prenom": "Selma",
+      "nom": "Labib",
+      "parti": "NPA-Révolutionnaires",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "lalanne", "prenom": "Francis", "nom": "Lalanne", "parti": "France Libre", "statut": "declare",
-      "fonction": "Chanteur", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "lalanne",
+      "prenom": "Francis",
+      "nom": "Lalanne",
+      "parti": "France Libre",
+      "statut": "declare",
+      "fonction": "Chanteur",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "lassalle", "prenom": "Jean", "nom": "Lassalle", "parti": "Résistons", "statut": "intention",
+      "id": "lassalle",
+      "prenom": "Jean",
+      "nom": "Lassalle",
+      "parti": "Résistons",
+      "statut": "intention",
       "fonction": "Ancien député",
       "declaration": "Devrait être candidat ; a lancé une cagnotte pour financer sa campagne.",
-      "parcours": ["Deux candidatures présidentielles précédentes"], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "parcours": [
+        "Deux candidatures présidentielles précédentes"
+      ],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "le-pen", "prenom": "Marine", "nom": "Le Pen", "parti": "Rassemblement national", "statut": "declare",
+      "id": "le-pen",
+      "prenom": "Marine",
+      "nom": "Le Pen",
+      "parti": "Rassemblement national",
+      "statut": "declare",
       "fonction": "Présidente du groupe RN à l'Assemblée nationale",
       "declaration": "Candidature annoncée le 7 juillet 2026 au 20 h de TF1, après la réduction de sa peine d'inéligibilité par la cour d'appel de Paris.",
-      "parcours": ["Situation judiciaire : condamnée dans l'affaire des assistants parlementaires, elle s'est pourvue en cassation ; la décision d'appel lui permet d'être candidate."],
-      "propositions": [
-        {"theme": "Finances publiques", "texte": "140 milliards d'euros d'économies nettes d'ici 2032, visant notamment l'immigration, l'aide au développement et la contribution à l'Union européenne, avec 30 milliards de baisses d'impôts.", "source": "https://www.lagazettefrance.fr/article/140-milliards-d-economies-ce-qu-il-faut-retenir-de-l-intervention-de-marine-le-pen"},
-        {"theme": "Immigration", "texte": "« Reprise en main » de l'immigration et « priorité nationale », présentées comme rapportant 15 milliards la première année puis 29 milliards en année pleine.", "source": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"},
-        {"theme": "Retraites", "texte": "15 à 20 milliards d'économies à terme sur les retraites avec un « pilier de capitalisation ».", "source": "https://www.moneyvox.fr/impot/actualites/110673/140-milliards-economies-ce-quil-faut-retenir-de-intervention-de-marine-le-pen"},
-        {"theme": "Institutions", "texte": "Une « règle d'or » budgétaire à faire adopter par référendum.", "source": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"},
-        {"theme": "Jeunesse", "texte": "Permis de conduire gratuit pour les jeunes au casier judiciaire vierge ; exonération d'impôt sur le revenu pour les moins de 30 ans jusqu'à 4 Smic ; suppression de la CVEC étudiante.", "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"},
-        {"theme": "Famille", "texte": "Une part fiscale entière dès le deuxième enfant.", "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"}
+      "parcours": [
+        "Situation judiciaire : condamnée dans l'affaire des assistants parlementaires, elle s'est pourvue en cassation ; la décision d'appel lui permet d'être candidate."
       ],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "propositions": [
+        {
+          "theme": "Finances publiques",
+          "texte": "140 milliards d'euros d'économies nettes d'ici 2032, visant notamment l'immigration, l'aide au développement et la contribution à l'Union européenne, avec 30 milliards de baisses d'impôts.",
+          "source": "https://www.lagazettefrance.fr/article/140-milliards-d-economies-ce-qu-il-faut-retenir-de-l-intervention-de-marine-le-pen"
+        },
+        {
+          "theme": "Immigration",
+          "texte": "« Reprise en main » de l'immigration et « priorité nationale », présentées comme rapportant 15 milliards la première année puis 29 milliards en année pleine.",
+          "source": "https://www.sudradio.fr/societe/presidentielle-en-quete-de-credibilite-budgetaire-le-pen-promet-un-effort-radical-de-140-milliards-net"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "15 à 20 milliards d'économies à terme sur les retraites avec un « pilier de capitalisation ».",
+          "source": "https://www.moneyvox.fr/impot/actualites/110673/140-milliards-economies-ce-quil-faut-retenir-de-intervention-de-marine-le-pen"
+        },
+        {
+          "theme": "Institutions",
+          "texte": "Une « règle d'or » budgétaire à faire adopter par référendum.",
+          "source": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"
+        },
+        {
+          "theme": "Jeunesse",
+          "texte": "Permis de conduire gratuit pour les jeunes au casier judiciaire vierge ; exonération d'impôt sur le revenu pour les moins de 30 ans jusqu'à 4 Smic ; suppression de la CVEC étudiante.",
+          "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+        },
+        {
+          "theme": "Famille",
+          "texte": "Une part fiscale entière dès le deuxième enfant.",
+          "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "lisnard", "prenom": "David", "nom": "Lisnard", "parti": "Nouvelle Énergie", "statut": "declare",
+      "id": "legendre",
+      "prenom": "Jean-François",
+      "nom": "Legendre",
+      "parti": "A nous maintenant",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature annoncée (citée par LCP parmi les personnalités moins connues).",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+      ]
+    },
+    {
+      "id": "lisnard",
+      "prenom": "David",
+      "nom": "Lisnard",
+      "parti": "Nouvelle Énergie",
+      "statut": "declare",
       "fonction": "Maire de Cannes",
       "declaration": "A quitté Les Républicains le 31 mars 2026 et s'est déclaré le même jour ; appelle à une primaire ouverte de la droite.",
       "parcours": [],
       "propositions": [
-        {"theme": "Finances publiques", "texte": "80 milliards d'euros d'économies la première année, puis au moins 200 milliards par an en fin de quinquennat, dont 60 % reversés en hausse des salaires nets.", "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"},
-        {"theme": "État", "texte": "Revue des 1 153 organismes publics nationaux et non-remplacement de départs dans la fonction publique.", "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"},
-        {"theme": "Retraites", "texte": "Capitalisation collective obligatoire pour environ un tiers des pensions ; désindexation des pensions supérieures à 2 000 € par mois.", "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"},
-        {"theme": "Justice", "texte": "20 000 places de prison supplémentaires.", "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"},
-        {"theme": "Gouvernement", "texte": "Nommer un « gouvernement commando » pour lancer les réformes économiques.", "source": "https://www.lagazettefrance.fr/article/presidentielle-s-il-est-elu-david-lisnard-promet-un-gouvernement-commando"}
+        {
+          "theme": "Finances publiques",
+          "texte": "80 milliards d'euros d'économies la première année, puis au moins 200 milliards par an en fin de quinquennat, dont 60 % reversés en hausse des salaires nets.",
+          "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"
+        },
+        {
+          "theme": "État",
+          "texte": "Revue des 1 153 organismes publics nationaux et non-remplacement de départs dans la fonction publique.",
+          "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Capitalisation collective obligatoire pour environ un tiers des pensions ; désindexation des pensions supérieures à 2 000 € par mois.",
+          "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"
+        },
+        {
+          "theme": "Justice",
+          "texte": "20 000 places de prison supplémentaires.",
+          "source": "https://lessentieldeleco.fr/9412-david-lisnard-un-programme-de-rupture-pour-la-droite/"
+        },
+        {
+          "theme": "Gouvernement",
+          "texte": "Nommer un « gouvernement commando » pour lancer les réformes économiques.",
+          "source": "https://www.lagazettefrance.fr/article/presidentielle-s-il-est-elu-david-lisnard-promet-un-gouvernement-commando"
+        }
       ],
-      "liens": [{"label": "Site de Nouvelle Énergie", "url": "https://www.unenouvelleenergie.fr/"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "liens": [
+        {
+          "label": "Site de Nouvelle Énergie",
+          "url": "https://www.unenouvelleenergie.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "markovic", "prenom": "Mira", "nom": "Markovic", "parti": "Parti animaliste", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [],
-      "propositions": [{"theme": "Cause animale", "texte": "Programme centré sur la cause animale.", "source": "https://www.candidatspresidentielles2027.fr/"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "markovic",
+      "prenom": "Mira",
+      "nom": "Markovic",
+      "parti": "Parti animaliste",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [
+        {
+          "theme": "Cause animale",
+          "texte": "Programme centré sur la cause animale.",
+          "source": "https://www.candidatspresidentielles2027.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "mathieu", "prenom": "Benoît", "nom": "Mathieu", "parti": "Sans étiquette", "statut": "declare",
-      "fonction": "Ingénieur, connu pour avoir traversé la France à vélo", "declaration": "Candidature déclarée.", "parcours": [],
-      "propositions": [{"theme": "Institutions", "texte": "Programme centré sur la démocratie directe.", "source": "https://www.candidatspresidentielles2027.fr/"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "mathieu",
+      "prenom": "Benoît",
+      "nom": "Mathieu",
+      "parti": "Sans étiquette",
+      "statut": "declare",
+      "fonction": "Ingénieur, connu pour avoir traversé la France à vélo",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Programme centré sur la démocratie directe.",
+          "source": "https://www.candidatspresidentielles2027.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "melenchon", "prenom": "Jean-Luc", "nom": "Mélenchon", "parti": "La France insoumise", "statut": "declare",
+      "id": "melenchon",
+      "prenom": "Jean-Luc",
+      "nom": "Mélenchon",
+      "parti": "La France insoumise",
+      "statut": "declare",
       "fonction": "Fondateur de La France insoumise",
       "declaration": "Candidature déclarée le 3 mai 2026 — sa quatrième, après 2012, 2017 et 2022.",
-      "parcours": ["2022 : 3e au premier tour avec 21,84 %"],
-      "propositions": [
-        {"theme": "Programme", "texte": "L'Avenir en commun, édition 2027 : 1 069 mesures, dont 238 nouvelles.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "Pouvoir d'achat", "texte": "Smic à 1 700 € nets immédiatement ; hausse de 10 % du point d'indice des fonctionnaires et des APL.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "Retraites", "texte": "Retour de la retraite à 60 ans à taux plein pour 40 annuités.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "Fiscalité", "texte": "Rétablissement de l'ISF avec un volet climatique ; impôt sur le revenu à 14 tranches ; écart de salaires limité de 1 à 20 dans les entreprises.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "Écologie", "texte": "Sortie progressive du nucléaire et 100 % d'énergies renouvelables au plus tard en 2060 ; baisse de 65 % des émissions d'ici 2033.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "Institutions", "texte": "Référendum pour une 6e République ; Assemblée élue à la proportionnelle ; suppression du 49.3.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"},
-        {"theme": "International", "texte": "Retrait du commandement intégré de l'OTAN puis de l'organisation, par étapes ; rejet de l'objectif de 5 % du PIB pour la défense.", "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"}
+      "parcours": [
+        "2022 : 3e au premier tour avec 21,84 %"
       ],
-      "liens": [{"label": "Site de campagne", "url": "https://melenchon2027.fr/"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "propositions": [
+        {
+          "theme": "Programme",
+          "texte": "L'Avenir en commun, édition 2027 : 1 069 mesures, dont 238 nouvelles.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "Pouvoir d'achat",
+          "texte": "Smic à 1 700 € nets immédiatement ; hausse de 10 % du point d'indice des fonctionnaires et des APL.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Retour de la retraite à 60 ans à taux plein pour 40 annuités.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "Fiscalité",
+          "texte": "Rétablissement de l'ISF avec un volet climatique ; impôt sur le revenu à 14 tranches ; écart de salaires limité de 1 à 20 dans les entreprises.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "Écologie",
+          "texte": "Sortie progressive du nucléaire et 100 % d'énergies renouvelables au plus tard en 2060 ; baisse de 65 % des émissions d'ici 2033.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "Institutions",
+          "texte": "Référendum pour une 6e République ; Assemblée élue à la proportionnelle ; suppression du 49.3.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        },
+        {
+          "theme": "International",
+          "texte": "Retrait du commandement intégré de l'OTAN puis de l'organisation, par étapes ; rejet de l'objectif de 5 % du PIB pour la défense.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-ce-qui-change-dans-le-nouveau-programme-de-jean-luc-melenchon-444841"
+        }
+      ],
+      "liens": [
+        {
+          "label": "Site de campagne",
+          "url": "https://melenchon2027.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "mikolajczak", "prenom": "Antoine", "nom": "Mikolajczak", "parti": "Équinoxe", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "mikolajczak",
+      "prenom": "Antoine",
+      "nom": "Mikolajczak",
+      "parti": "Équinoxe",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "mlekuz", "prenom": "Manolo", "nom": "Mlekuz", "parti": "Trajectoire", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [],
-      "propositions": [{"theme": "Institutions", "texte": "Programme centré sur une nouvelle Constitution.", "source": "https://www.candidatspresidentielles2027.fr/"}],
-      "sources": ["https://www.candidatspresidentielles2027.fr/"]
+      "id": "mlekuz",
+      "prenom": "Manolo",
+      "nom": "Mlekuz",
+      "parti": "Trajectoire",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Programme centré sur une nouvelle Constitution.",
+          "source": "https://www.candidatspresidentielles2027.fr/"
+        }
+      ],
+      "sources": [
+        "https://www.candidatspresidentielles2027.fr/"
+      ]
     },
     {
-      "id": "philippe", "prenom": "Édouard", "nom": "Philippe", "parti": "Horizons", "statut": "declare",
+      "id": "philippe",
+      "prenom": "Édouard",
+      "nom": "Philippe",
+      "parti": "Horizons",
+      "statut": "declare",
       "fonction": "Président d'Horizons, maire du Havre, ancien Premier ministre",
       "declaration": "Candidature annoncée en septembre 2024.",
-      "parcours": ["Programme « Croire en nous », volume 1 (142 propositions) présenté le 18 novembre 2026 ; volume 2 annoncé pour début 2027"],
-      "propositions": [
-        {"theme": "Finances publiques", "texte": "Règle d'or budgétaire ; baisse de 50 milliards des impôts de production financée par une baisse équivalente des aides aux entreprises.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Travail", "texte": "Retour sur les 35 heures avec heures supplémentaires défiscalisées ; indemnisation chômage limitée à 12 mois sauf pour les seniors.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Retraites", "texte": "Départ à 65 ans, 45 ans de cotisation et une dose de capitalisation.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Fonction publique", "texte": "250 000 postes de fonctionnaires en moins sur le quinquennat, en s'appuyant sur l'IA pour les fonctions de bureau.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "École", "texte": "Autonomie des établissements ; hausse de 20 % du salaire des enseignants ; recréation des écoles normales ; sélection à l'université.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Sécurité et justice", "texte": "Peines plancher ; 30 000 places de prison ; reconnaissance faciale « ciblée et encadrée ».", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Immigration", "texte": "Quotas ; division par deux des titres de séjour ; moratoire sur le regroupement familial.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Famille", "texte": "Allocation familiale de 350 € dès le premier enfant, dégressive selon le revenu ; suppression des frais de notaire pour le premier achat des moins de 35 ans.", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"},
-        {"theme": "Énergie", "texte": "14 nouveaux réacteurs nucléaires au total ; suppression du « zéro artificialisation nette ».", "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"}
+      "parcours": [
+        "Programme « Croire en nous », volume 1 (142 propositions) présenté le 18 novembre 2026 ; volume 2 annoncé pour début 2027"
       ],
-      "sources": ["https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"]
+      "propositions": [
+        {
+          "theme": "Finances publiques",
+          "texte": "Règle d'or budgétaire ; baisse de 50 milliards des impôts de production financée par une baisse équivalente des aides aux entreprises.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Travail",
+          "texte": "Retour sur les 35 heures avec heures supplémentaires défiscalisées ; indemnisation chômage limitée à 12 mois sauf pour les seniors.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Départ à 65 ans, 45 ans de cotisation et une dose de capitalisation.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Fonction publique",
+          "texte": "250 000 postes de fonctionnaires en moins sur le quinquennat, en s'appuyant sur l'IA pour les fonctions de bureau.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "École",
+          "texte": "Autonomie des établissements ; hausse de 20 % du salaire des enseignants ; recréation des écoles normales ; sélection à l'université.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Sécurité et justice",
+          "texte": "Peines plancher ; 30 000 places de prison ; reconnaissance faciale « ciblée et encadrée ».",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Immigration",
+          "texte": "Quotas ; division par deux des titres de séjour ; moratoire sur le regroupement familial.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Famille",
+          "texte": "Allocation familiale de 350 € dès le premier enfant, dégressive selon le revenu ; suppression des frais de notaire pour le premier achat des moins de 35 ans.",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Énergie",
+          "texte": "14 nouveaux réacteurs nucléaires au total ; suppression du « zéro artificialisation nette ».",
+          "source": "https://www.publicsenat.fr/actualites/politique/capitalisation-suppression-de-250-000-postes-de-fonctionnaires-autonomie-des-ecoles-fin-des-35-heures-aides-pour-les-familles-edouard-philippe-presente-son-projet-massif-et"
+        },
+        {
+          "theme": "Santé",
+          "texte": "Rendre obligatoire la vaccination contre les papillomavirus (annonce du 24 novembre 2026).",
+          "source": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la"
+        }
+      ],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"
+      ]
     },
     {
-      "id": "philippot", "prenom": "Florian", "nom": "Philippot", "parti": "Les Patriotes", "statut": "declare",
-      "fonction": "Président des Patriotes", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "philippot",
+      "prenom": "Florian",
+      "nom": "Philippot",
+      "parti": "Les Patriotes",
+      "statut": "declare",
+      "fonction": "Président des Patriotes",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "platret", "prenom": "Gilles", "nom": "Platret", "parti": "Divers droite", "statut": "declare",
-      "fonction": "", "declaration": "Candidature déclarée.", "parcours": [], "propositions": [],
-      "sources": ["https://www.candidatspresidentielles2027.fr/"]
+      "id": "platret",
+      "prenom": "Gilles",
+      "nom": "Platret",
+      "parti": "Divers droite",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature déclarée.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.candidatspresidentielles2027.fr/"
+      ]
     },
     {
-      "id": "polony", "prenom": "Natacha", "nom": "Polony", "parti": "Nous sommes la France", "statut": "declare",
-      "fonction": "Journaliste et essayiste", "declaration": "Candidature annoncée sur France Inter le 14 octobre 2026.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "id": "polony",
+      "prenom": "Natacha",
+      "nom": "Polony",
+      "parti": "Nous sommes la France",
+      "statut": "declare",
+      "fonction": "Journaliste et essayiste",
+      "declaration": "Candidature annoncée sur France Inter le 14 octobre 2026.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "retailleau", "prenom": "Bruno", "nom": "Retailleau", "parti": "Les Républicains", "statut": "declare",
+      "id": "retailleau",
+      "prenom": "Bruno",
+      "nom": "Retailleau",
+      "parti": "Les Républicains",
+      "statut": "declare",
       "fonction": "Président des Républicains, ancien ministre de l'Intérieur",
       "declaration": "Désigné candidat par les adhérents LR le 19 avril 2026 avec 73,8 % des voix.",
       "parcours": [],
       "propositions": [
-        {"theme": "Finances publiques", "texte": "197 milliards d'euros d'économies cumulées d'ici 2032, pour un déficit sous 3 % en 2031, sans hausse d'impôts.", "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"},
-        {"theme": "Fonction publique", "texte": "Non-remplacement de 400 000 fonctionnaires partant à la retraite d'ici 2032 ; suppression d'agences et d'opérateurs de l'État.", "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"},
-        {"theme": "Pouvoir d'achat", "texte": "51 milliards rendus aux ménages (baisse de cotisations ou de la facture d'électricité) et aux entreprises (suppression d'impôts de production).", "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"},
-        {"theme": "Institutions", "texte": "Une réforme constitutionnelle comme première grande réforme du quinquennat.", "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"},
-        {"theme": "Logement", "texte": "Libérer la construction et favoriser l'accès à la propriété.", "source": "https://www.europe1.fr/immobilier/exclu-europe-1-immobilier-bruno-retailleau-veut-renverser-la-table-en-2027-939395"}
+        {
+          "theme": "Finances publiques",
+          "texte": "197 milliards d'euros d'économies cumulées d'ici 2032, pour un déficit sous 3 % en 2031, sans hausse d'impôts.",
+          "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
+        },
+        {
+          "theme": "Fonction publique",
+          "texte": "Non-remplacement de 400 000 fonctionnaires partant à la retraite d'ici 2032 ; suppression d'agences et d'opérateurs de l'État.",
+          "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
+        },
+        {
+          "theme": "Pouvoir d'achat",
+          "texte": "51 milliards rendus aux ménages (baisse de cotisations ou de la facture d'électricité) et aux entreprises (suppression d'impôts de production).",
+          "source": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de"
+        },
+        {
+          "theme": "Institutions",
+          "texte": "Une réforme constitutionnelle comme première grande réforme du quinquennat.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+        },
+        {
+          "theme": "Logement",
+          "texte": "Libérer la construction et favoriser l'accès à la propriété.",
+          "source": "https://www.europe1.fr/immobilier/exclu-europe-1-immobilier-bruno-retailleau-veut-renverser-la-table-en-2027-939395"
+        }
       ],
-      "sources": ["https://www.letemps.ch/monde/france-les-adherents-lr-propulsent-bruno-retailleau-comme-candidat-pour-la-presidentielle"]
+      "sources": [
+        "https://www.letemps.ch/monde/france-les-adherents-lr-propulsent-bruno-retailleau-comme-candidat-pour-la-presidentielle"
+      ]
     },
     {
-      "id": "riner", "prenom": "Teddy", "nom": "Riner", "parti": "Sans étiquette", "statut": "declare",
+      "id": "riner",
+      "prenom": "Teddy",
+      "nom": "Riner",
+      "parti": "Sans étiquette",
+      "statut": "declare",
       "fonction": "Judoka, triple champion olympique en individuel",
-      "declaration": "Candidature annoncée au Parisien le 9 novembre 2026 ; se dit « ni de droite, ni de gauche ».", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "declaration": "Candidature annoncée au Parisien le 9 novembre 2026 ; se dit « ni de droite, ni de gauche ».",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "roussel", "prenom": "Fabien", "nom": "Roussel", "parti": "Parti communiste français", "statut": "declare",
+      "id": "rohou",
+      "prenom": "Erwan",
+      "nom": "Rohou",
+      "parti": "Mouvement écologiste indépendant",
+      "statut": "declare",
+      "fonction": "",
+      "declaration": "Candidature annoncée (citée par LCP parmi les personnalités moins connues).",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
+      ]
+    },
+    {
+      "id": "roussel",
+      "prenom": "Fabien",
+      "nom": "Roussel",
+      "parti": "Parti communiste français",
+      "statut": "declare",
       "fonction": "Secrétaire national du PCF, maire de Saint-Amand-les-Eaux",
-      "declaration": "Candidature validée par les militants, annoncée le 6 septembre 2026 — sa deuxième consécutive.", "parcours": [], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "declaration": "Candidature validée par les militants, annoncée le 6 septembre 2026 — sa deuxième consécutive.",
+      "parcours": [],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "tondelier", "prenom": "Marine", "nom": "Tondelier", "parti": "Les Écologistes", "statut": "declare",
+      "id": "tondelier",
+      "prenom": "Marine",
+      "nom": "Tondelier",
+      "parti": "Les Écologistes",
+      "statut": "declare",
       "fonction": "Secrétaire nationale des Écologistes",
       "declaration": "Son parti a validé une candidature autonome ; le 18 novembre 2026, elle s'est dite « prête à une coalition » autour de Jean-Luc Mélenchon. Les militants décident le 13 décembre.",
       "parcours": [],
-      "propositions": [{"theme": "Santé environnementale", "texte": "Faire de la santé environnementale « un droit fondamental du XXIe siècle » (livret publié en 2026).", "source": "https://www.terre-net.fr/politique/amp/article/899196/tondelier-devoile-ses-mesures-pour-la-sante-environnementale"}],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "propositions": [
+        {
+          "theme": "Santé environnementale",
+          "texte": "Faire de la santé environnementale « un droit fondamental du XXIe siècle » (livret publié en 2026).",
+          "source": "https://www.terre-net.fr/politique/amp/article/899196/tondelier-devoile-ses-mesures-pour-la-sante-environnementale"
+        }
+      ],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "villepin", "prenom": "Dominique", "nom": "de Villepin", "tri": "Villepin", "parti": "La France humaniste", "statut": "declare",
+      "id": "villepin",
+      "prenom": "Dominique",
+      "nom": "de Villepin",
+      "tri": "Villepin",
+      "parti": "La France humaniste",
+      "statut": "declare",
       "fonction": "Ancien Premier ministre (2005-2007)",
-      "declaration": "Candidature déclarée le 20 novembre 2026 en conférence de presse ; revendique un « positionnement transversal ».", "parcours": ["Fondateur de La France humaniste (juin 2025)"], "propositions": [],
-      "sources": ["https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"]
+      "declaration": "Candidature déclarée le 20 novembre 2026 en conférence de presse ; revendique un « positionnement transversal ».",
+      "parcours": [
+        "Fondateur de La France humaniste (juin 2025)"
+      ],
+      "propositions": [],
+      "sources": [
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+      ]
     },
     {
-      "id": "zemmour", "prenom": "Éric", "nom": "Zemmour", "parti": "Reconquête", "statut": "declare",
+      "id": "zemmour",
+      "prenom": "Éric",
+      "nom": "Zemmour",
+      "parti": "Reconquête",
+      "statut": "declare",
       "fonction": "Président de Reconquête",
       "declaration": "Intention annoncée sur BFMTV le 17 septembre 2026, candidature officialisée au 20 h de TF1 le 10 novembre 2026.",
-      "parcours": ["2022 : 4e au premier tour avec 7,07 %"],
-      "propositions": [
-        {"theme": "Immigration", "texte": "Une « immigration négative » : moins d'immigrés à la fin du mandat qu'au début.", "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"},
-        {"theme": "Immigration", "texte": "Expulsion des étrangers sans emploi depuis plus de six mois, y compris en situation régulière.", "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"},
-        {"theme": "Institutions", "texte": "Un référendum sur l'immigration.", "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"}
+      "parcours": [
+        "2022 : 4e au premier tour avec 7,07 %"
       ],
-      "sources": ["https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle", "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871"]
+      "propositions": [
+        {
+          "theme": "Immigration",
+          "texte": "Une « immigration négative » : moins d'immigrés à la fin du mandat qu'au début.",
+          "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"
+        },
+        {
+          "theme": "Immigration",
+          "texte": "Expulsion des étrangers sans emploi depuis plus de six mois, y compris en situation régulière.",
+          "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"
+        },
+        {
+          "theme": "Institutions",
+          "texte": "Un référendum sur l'immigration.",
+          "source": "https://stephanelarue.com/eric-zemmour-officialise-sa-candidature-sur-tf1-et-promet-un-referendum-sur-limmigration/"
+        }
+      ],
+      "sources": [
+        "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle",
+        "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871"
+      ]
     }
   ],
   "retires": [
-    {"nom": "François Ruffin", "parti": "Debout !", "texte": "Retrait le 21 novembre 2026, ne soutient aucun autre candidat.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"nom": "Lydie Massard", "parti": "Union démocratique bretonne", "texte": "Retrait le 9 septembre 2026.", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"nom": "Olivier Faure", "parti": "Parti socialiste", "texte": "Battu à la primaire « Choisir 2027 » (14,46 %).", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"nom": "Ségolène Royal", "parti": "Parti socialiste", "texte": "Battue à la primaire « Choisir 2027 » (7,62 %).", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"nom": "Emmanuel Maurel", "parti": "Gauche républicaine et socialiste", "texte": "Battu à la primaire « Choisir 2027 » (5,92 %).", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},
-    {"nom": "Jérôme Guedj", "parti": "Parti socialiste", "texte": "Battu à la primaire « Choisir 2027 » (5,80 %).", "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"}
+    {
+      "nom": "François Ruffin",
+      "parti": "Debout !",
+      "texte": "Retrait le 21 novembre 2026, ne soutient aucun autre candidat.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "nom": "Lydie Massard",
+      "parti": "Union démocratique bretonne",
+      "texte": "Retrait le 9 septembre 2026.",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "nom": "Olivier Faure",
+      "parti": "Parti socialiste",
+      "texte": "Battu à la primaire « Choisir 2027 » (14,46 %).",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "nom": "Ségolène Royal",
+      "parti": "Parti socialiste",
+      "texte": "Battue à la primaire « Choisir 2027 » (7,62 %).",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "nom": "Emmanuel Maurel",
+      "parti": "Gauche républicaine et socialiste",
+      "texte": "Battu à la primaire « Choisir 2027 » (5,92 %).",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "nom": "Jérôme Guedj",
+      "parti": "Parti socialiste",
+      "texte": "Battu à la primaire « Choisir 2027 » (5,80 %).",
+      "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    }
   ]
 }
