@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_mise_a_jour": "2026-11-25",
+    "derniere_mise_a_jour": "2026-11-26",
     "premier_tour": "2027-04-18",
     "second_tour": "2027-05-02"
   },
@@ -38,6 +38,11 @@
   ],
   "actualites": [
     {
+      "date": "2026-11-25",
+      "texte": "Au Congrès des maires, Édouard Philippe appelle ses soutiens à s'engager dans la campagne et confirme son refus d'une primaire de la droite et du centre.",
+      "source": "https://www.boursorama.com/actualite-economique/actualites/philippe-exhorte-ses-soutiens-a-ne-pas-etre-spectateurs-de-la-campagne-presidentielle-6e72eb0ca2a7d47807659774c210f483"
+    },
+    {
       "date": "2026-11-24",
       "texte": "Édouard Philippe annonce vouloir rendre obligatoire la vaccination contre les papillomavirus.",
       "source": "https://lcp.fr/actualites/eradiquer-le-cancer-du-col-de-l-uterus-edouard-philippe-veut-rendre-obligatoire-la"
@@ -58,6 +63,11 @@
       "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
     },
     {
+      "date": "2026-11-19",
+      "texte": "Les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard conviennent d'une primaire fin janvier, sans accord sur son périmètre.",
+      "source": "https://fr.news.yahoo.com/presidentielle-2027-gabriel-attal-admet-060927798.html"
+    },
+    {
       "date": "2026-11-18",
       "texte": "Édouard Philippe présente le « volume 1 » de son programme (142 propositions).",
       "source": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"
@@ -66,6 +76,11 @@
       "date": "2026-11-18",
       "texte": "Marine Tondelier se dit « prête à une coalition » autour de Jean-Luc Mélenchon ; son parti tranchera le 13 décembre.",
       "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+    },
+    {
+      "date": "2026-11-17",
+      "texte": "Marine Le Pen présente sa réforme des retraites (départ entre 60 et 62 ans selon l'âge d'entrée dans la vie active).",
+      "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
     },
     {
       "date": "2026-11-10",
@@ -157,7 +172,8 @@
       "declaration": "Candidature officialisée le 22 mai 2026 depuis l'Aveyron.",
       "parcours": [
         "Ancien ministre de l'Éducation nationale",
-        "Ancien Premier ministre (2024)"
+        "Ancien Premier ministre (2024)",
+        "Le 19 novembre 2026 sur France 2, dit chercher une solution commune avec les candidats de la droite et du centre ; favorable à une primaire fin janvier 2027"
       ],
       "propositions": [
         {
@@ -192,7 +208,8 @@
         }
       ],
       "sources": [
-        "https://www.europe1.fr/node/937421"
+        "https://www.europe1.fr/node/937421",
+        "https://fr.news.yahoo.com/presidentielle-2027-gabriel-attal-admet-060927798.html"
       ]
     },
     {
@@ -291,15 +308,19 @@
       "parti": "Parti socialiste / La France Humaine et Forte",
       "statut": "declare",
       "fonction": "Maire de Saint-Ouen-sur-Seine",
-      "declaration": "Candidature déclarée sans passer par la primaire de la gauche.",
+      "declaration": "Candidature annoncée le 9 juin 2026 sur France Inter, sans passer par la primaire de la gauche.",
       "parcours": [
+        "Conseiller municipal de Saint-Ouen depuis 1995, d'abord adjoint communiste ; rejoint le PS en 2014",
+        "Porte-parole du PS en 2016",
+        "Maire de Saint-Ouen depuis 2020, réélu en 2026",
         "Soutien de Manuel Valls à la primaire de la gauche en 2017",
         "Opposant au premier secrétaire du PS Olivier Faure, critique des alliances avec LFI"
       ],
       "propositions": [],
       "sources": [
         "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
-        "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"
+        "https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares",
+        "https://lcp.fr/actualites/presidentielle-2027-qui-est-karim-bouamrane-le-maire-socialiste-de-saint-ouen-et-nouveau"
       ]
     },
     {
@@ -308,12 +329,27 @@
       "nom": "Branco",
       "parti": "Les Ruches",
       "statut": "declare",
-      "fonction": "",
+      "fonction": "Avocat, auteur",
       "declaration": "Candidature déclarée.",
-      "parcours": [],
-      "propositions": [],
+      "parcours": [
+        "Auteur de plusieurs ouvrages sur Emmanuel Macron",
+        "A fait partie de la défense de Julian Assange"
+      ],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Changement de régime, avec référendums d'initiative citoyenne et mandats révocables ; programme annoncé de plus de 300 propositions.",
+          "source": "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle"
+        },
+        {
+          "theme": "Europe",
+          "texte": "Préparer une sortie de l'Union européenne.",
+          "source": "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle"
       ]
     },
     {
@@ -547,10 +583,16 @@
           "theme": "Famille",
           "texte": "Une part fiscale entière dès le deuxième enfant.",
           "source": "https://lcp.fr/index%2ephp/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Départ à 60 ou 62 ans selon l'âge d'entrée dans la vie active (40 annuités avant 20 ans, 42 après 23 ans) ; abrogation de la réforme de 2023 au 1er janvier 2028 ; second pilier obligatoire par capitalisation ; référendum en l'absence de majorité absolue.",
+          "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
         }
       ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
       ]
     },
     {
@@ -809,7 +851,8 @@
         }
       ],
       "sources": [
-        "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa"
+        "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa",
+        "https://www.boursorama.com/actualite-economique/actualites/philippe-exhorte-ses-soutiens-a-ne-pas-etre-spectateurs-de-la-campagne-presidentielle-6e72eb0ca2a7d47807659774c210f483"
       ]
     },
     {
@@ -968,9 +1011,31 @@
       "parcours": [
         "Fondateur de La France humaniste (juin 2025)"
       ],
-      "propositions": [],
+      "propositions": [
+        {
+          "theme": "Finances publiques",
+          "texte": "Ramener le déficit public à 3 % du PIB à la fin du quinquennat, avec une réduction des dépenses publiques.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+        },
+        {
+          "theme": "Fiscalité",
+          "texte": "Une loi de suppression des niches fiscales et sociales ; un système ramené à neuf grands impôts, dont un impôt unique sur le patrimoine.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+        },
+        {
+          "theme": "Fiscalité",
+          "texte": "Imposition unique des successions renforcée, avec défiscalisation complète des transmissions faites de son vivant.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+        },
+        {
+          "theme": "Protection sociale",
+          "texte": "Un taux unique de CSG pour tous et le transfert de plus de 200 milliards d'euros de cotisations vers la CSG.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
       ]
     },
     {
