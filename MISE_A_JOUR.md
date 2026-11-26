@@ -19,6 +19,13 @@ La page `index.html` lit `data/candidats.json` : une mise à jour quotidienne co
 - Vidéos : seulement des vidéos réelles dont l'identifiant YouTube a été vérifié (champ `videos: [{"titre","date","youtube":"ID"}]`) ; de préférence chaînes officielles des candidats ou médias (débats, journaux télévisés, interviews).
 - Ne jamais inventer un lien, un chiffre ou une date.
 
+## Règles légales de période électorale (obligatoires)
+- Week-ends de vote : du samedi 17 avril 2027 à 0 h au dimanche 18 avril 20 h, et du samedi 1er mai 2027 à 0 h au dimanche 2 mai 20 h (dès le vendredi minuit pour l'outre-mer qui vote le samedi) : NE RIEN AJOUTER qui ressemble à de la propagande (déclarations, propositions, vidéos, citations de meeting). Seules les informations pratiques (horaires, procuration) sont autorisées.
+- Jamais de sondage, ni sa mention ou son commentaire, et en particulier du vendredi minuit au dimanche 20 h des week-ends de vote.
+- Aucun résultat partiel ou estimation avant 20 h 00 le dimanche du vote ; ensuite seulement les résultats officiels (ministère de l'Intérieur, puis Conseil constitutionnel), en citant la source.
+- Sources autorisées pour le journal : sources officielles (Conseil constitutionnel, ministère de l'Intérieur, service-public, vie-publique, Légifrance, sites officiels des candidats) et médias reconnus (AFP, Le Monde, Le Figaro, Libération, franceinfo, LCP, Public Sénat, Ouest-France, 20 Minutes, Les Échos, BFMTV, TF1info, Europe 1, RTL, Toute l'Europe, etc.). Pas de contenus générés par IA, de forums ni de vidéos non vérifiées.
+- Affaires judiciaires : uniquement des faits établis par une source fiable, au conditionnel pour ce qui est en cours, en rappelant la présomption d'innocence.
+
 ## Fin de campagne
 - Le 26 mars 2027 : passer les candidats non retenus dans `retires`.
 - Le 18 avril et le 2 mai 2027 : ajouter les résultats officiels (ministère de l'Intérieur / Conseil constitutionnel) dans `actualites`.

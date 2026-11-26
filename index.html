@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Présidentielle 2027 : les candidats</title>
 <meta name="description" content="Fiches neutres et sourcées sur tous les candidats déclarés à l'élection présidentielle française de 2027 : parcours, propositions, vidéos.">
+<link rel="canonical" href="https://ltbrokerolivier-a11y.github.io/presidentielle-2027/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#1b2a4a">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Présidentielle 2027 : les candidats">
+<meta property="og:title" content="Présidentielle 2027 : tous les candidats, sans parti pris">
+<meta property="og:description" content="Une fiche identique pour chaque candidat : parcours, propositions sourcées, vidéos. Comparateur par thème, calendrier officiel. Mis à jour chaque jour.">
+<meta property="og:url" content="https://ltbrokerolivier-a11y.github.io/presidentielle-2027/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Présidentielle 2027 : les candidats","url":"https://ltbrokerolivier-a11y.github.io/presidentielle-2027/","inLanguage":"fr-FR","description":"Fiches neutres et sourcées sur tous les candidats à l'élection présidentielle française de 2027."}</script>
+<script data-goatcounter="https://presidentielle2027.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -53,6 +65,12 @@ button:hover{background:var(--chip)}
 .board .meta{margin-top:auto;display:flex;flex-wrap:wrap;gap:6px}
 .tag{font-size:13px;background:var(--chip);border-radius:20px;padding:3px 10px;white-space:nowrap}
 .tag.warn{background:light-dark(#fff1d6,#3a2f14)}
+.share{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.share a,.share button{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border-radius:8px;font:600 15px "Public Sans",system-ui,sans-serif;text-decoration:none;border:1px solid #55648a;background:transparent;color:#fff;cursor:pointer}
+.share a:hover,.share button:hover{background:#26375e}
+.db .share{margin-top:6px}
+.db .share a,.db .share button{color:var(--ink);border-color:var(--metal)}
+.db .share a:hover,.db .share button:hover{background:var(--chip)}
 .empty{color:var(--mute);padding:20px 0}
 dialog{width:min(860px,100% - 24px);max-height:calc(100% - 24px);border:0;border-radius:10px;padding:0;background:var(--panel);color:var(--ink)}
 dialog::backdrop{background:rgb(10 15 30 / .6)}
@@ -88,6 +106,7 @@ footer{font-size:14px;color:var(--mute)}
   <h1>Présidentielle 2027 : tous les candidats, sans parti pris</h1>
   <p class="lead">Une fiche identique pour chaque candidat : parcours, propositions avec leur source, vidéos. Classement alphabétique, aucun sondage, aucun commentaire.</p>
   <div class="count" id="count"></div>
+  <div class="share" id="share-site" aria-label="Partager le site"></div>
 </div><svg viewBox="0 0 470 170" role="img" aria-label="Rangée de panneaux électoraux numérotés"><defs><g id="pan"><rect x="0" y="0" width="60" height="84" rx="3" fill="#fff" stroke="#8a94a6" stroke-width="5"/><rect x="40" y="-4" width="22" height="16" rx="2" fill="#e1000f"/><circle cx="30" cy="34" r="12" fill="#e6e9f0"/><rect x="12" y="54" width="36" height="5" rx="2" fill="#c9ced8"/><rect x="16" y="64" width="28" height="4" rx="2" fill="#e6e9f0"/><rect x="27" y="84" width="6" height="40" fill="#8a94a6"/></g></defs><g font-size="11" font-weight="800" text-anchor="middle" font-family="Archivo,sans-serif" fill="#fff"><use href="#pan" x="20" y="40"/><text x="71" y="48">1</text><use href="#pan" x="92" y="30"/><text x="143" y="38">2</text><use href="#pan" x="164" y="40"/><text x="215" y="48">3</text><use href="#pan" x="236" y="30"/><text x="287" y="38">4</text><use href="#pan" x="308" y="40"/><text x="359" y="48">5</text><use href="#pan" x="380" y="30"/><text x="431" y="38">6</text></g><rect x="0" y="162" width="470" height="4" fill="#33405c"/></svg></div></header>
 <nav class="scroll" aria-label="Sections">
   <a href="#candidats">Candidats</a><a href="#comparer">Comparer par thème</a><a href="#calendrier">Calendrier</a><a href="#actualites">Actualités</a><a href="#retires">Retraits</a><a href="#methode">Méthode</a>
@@ -156,6 +175,11 @@ const alpha=[...D.candidats].sort((a,b)=>key(a).localeCompare(key(b)));
 alpha.forEach((c,i)=>c.n=i+1);
 let order=alpha;
 const ini=c=>(c.prenom[0]+(c.tri||c.nom)[0]).toUpperCase();
+const SITE='https://ltbrokerolivier-a11y.github.io/presidentielle-2027/';
+const shareBar=(url,text)=>{const u=encodeURIComponent(url),t=encodeURIComponent(text);return `<a href="https://wa.me/?text=${t}%20${u}" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">Facebook</a><a href="https://twitter.com/intent/tweet?text=${t}&url=${u}" target="_blank" rel="noopener">X</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${u}" target="_blank" rel="noopener">LinkedIn</a><button type="button" class="copy" data-url="${esc(url)}">Copier le lien</button>`};
+const track=(path,title)=>{try{window.goatcounter&&window.goatcounter.count&&window.goatcounter.count({path,title})}catch(e){}};
+document.addEventListener('click',e=>{const b=e.target.closest('.copy');if(!b)return;const done=()=>{const o=b.textContent;b.textContent='Lien copié';setTimeout(()=>b.textContent=o,1800)};try{navigator.clipboard.writeText(b.dataset.url).then(done,()=>{b.textContent=b.dataset.url})}catch(err){b.textContent=b.dataset.url}});
+$('share-site').innerHTML='<span style="align-self:center;color:#d5dbe8;font-weight:600">Partager :</span>'+shareBar(SITE,'Tous les candidats à la présidentielle 2027, sans parti pris :');
 const today=new Date();today.setHours(0,0,0,0);
 const days=d=>Math.ceil((new Date(d+'T00:00:00')-today)/864e5);
 const nDecl=D.candidats.filter(c=>c.statut==='declare').length;
@@ -199,9 +223,13 @@ function open(id){
   <div class="vids"><a href="${esc(yt)}" target="_blank" rel="noopener">Interviews sur YouTube</a><a href="${esc(prog)}" target="_blank" rel="noopener">Présentations du programme</a></div>
   ${(c.liens||[]).length?`<h3>Liens officiels</h3><ul>${c.liens.map(l=>`<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('')}</ul>`:''}
   <h3>Sources</h3><ul>${c.sources.map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(host(s))}</a></li>`).join('')}</ul>
+  <h3>Partager cette fiche</h3><div class="share">${shareBar(SITE+'#'+c.id,c.prenom+' '+c.nom+' : programme et propositions pour la présidentielle 2027')}</div>
  </div>`;
+ try{history.replaceState(null,'','#'+c.id)}catch(e){}
+ track('fiche-'+c.id,c.prenom+' '+c.nom);
  const d=$('fiche');d.showModal?d.showModal():d.setAttribute('open','');
  $('close').addEventListener('click',()=>d.close?d.close():d.removeAttribute('open'));
+ d.addEventListener('close',()=>{try{history.replaceState(null,'',location.pathname)}catch(e){}},{once:true});
 }
 $('fiche').addEventListener('click',e=>{if(e.target===$('fiche'))$('fiche').close()});
 const themes=[...new Set(D.candidats.flatMap(c=>c.propositions.map(p=>p.theme)))].sort((a,b)=>a.localeCompare(b,'fr'));

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ltbrokerolivier-a11y.github.io/presidentielle-2027/sitemap.xml
