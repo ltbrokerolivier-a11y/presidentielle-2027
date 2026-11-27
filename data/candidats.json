@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_mise_a_jour": "2026-11-26",
+    "derniere_mise_a_jour": "2026-11-27",
     "premier_tour": "2027-04-18",
     "second_tour": "2027-05-02"
   },
@@ -38,9 +38,44 @@
   ],
   "actualites": [
     {
+      "date": "2026-11-26",
+      "texte": "Éric Zemmour annonce sur CNews que 2027 sera sa dernière campagne présidentielle.",
+      "source": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-c-est-ma-derniere-campagne-annonce-zemmour-cbc7f016deb54f4473e447df99830a20"
+    },
+    {
+      "date": "2026-11-26",
+      "texte": "Huit députés du groupe Droite républicaine soutiennent David Lisnard dans une tribune publiée par Paris Match.",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-david-lisnard-candidat-de-l-automne-ou-ascension-durable-445996"
+    },
+    {
+      "date": "2026-11-25",
+      "texte": "David Lisnard est réélu président de l'Association des maires de France (72 % des voix).",
+      "source": "https://www.publicsenat.fr/actualites/politique/david-lisnard-largement-reelu-a-la-tete-de-lassociation-des-maires-de-france"
+    },
+    {
+      "date": "2026-11-25",
+      "texte": "Le gouvernement maintient à ce stade les dates du 18 avril et du 2 mai 2027, malgré des demandes de changement pour le second tour.",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-malgre-les-critiques-le-gouvernement-maintient-a-ce-stade-le-second"
+    },
+    {
+      "date": "2026-11-25",
+      "texte": "Raphaël Glucksmann, au Congrès des maires, propose un nouveau contrat entre les maires et l'État et annonce un meeting le 6 décembre.",
+      "source": "https://www.publicsenat.fr/actualites/politique/nous-eviterons-le-duel-rassemblement-national-la-france-insoumise-au-second-tour-declare-raphael-glucksmann"
+    },
+    {
+      "date": "2026-11-25",
+      "texte": "Teddy Riner se dit opposé à l'envoi de militaires français en Ukraine et souhaite avancer l'élection.",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612"
+    },
+    {
       "date": "2026-11-25",
       "texte": "Au Congrès des maires, Édouard Philippe appelle ses soutiens à s'engager dans la campagne et confirme son refus d'une primaire de la droite et du centre.",
       "source": "https://www.boursorama.com/actualite-economique/actualites/philippe-exhorte-ses-soutiens-a-ne-pas-etre-spectateurs-de-la-campagne-presidentielle-6e72eb0ca2a7d47807659774c210f483"
+    },
+    {
+      "date": "2026-11-24",
+      "texte": "Édouard Philippe propose à David Lisnard un débat télévisé.",
+      "source": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-defie-david-lisnard-et-lui-propose-un-debat"
     },
     {
       "date": "2026-11-24",
@@ -360,10 +395,54 @@
       "statut": "declare",
       "fonction": "Ancien Premier ministre",
       "declaration": "Candidature déclarée sans participer à la primaire de la gauche.",
-      "parcours": [],
-      "propositions": [],
+      "parcours": [
+        "Ancien ministre de l'Intérieur et Premier ministre (2016-2017)",
+        "Fondateur de La Convention en 2022 après avoir quitté le Parti socialiste",
+        "Lettre aux Français « Tenir la promesse de la France » publiée en juillet 2026",
+        "Le 30 juillet 2026 (entretien à Marianne), dit avoir pour objectif de devenir président ; opposé à une primaire de la gauche"
+      ],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Rétablir le septennat, limiter le recours aux ordonnances et au 49.3, introduire une dose de proportionnelle aux législatives.",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Utiliser la durée de cotisation plutôt que le recul de l'âge légal ; rétablir les départs anticipés pour pénibilité.",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        },
+        {
+          "theme": "Jeunesse",
+          "texte": "Au moins 2 000 € d'aide en plus pour les étudiants boursiers les deux premières années ; « avance jeunesse » de 3 000 € pour les 18-24 ans sans diplôme ni emploi, sous conditions de ressources.",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        },
+        {
+          "theme": "Fiscalité",
+          "texte": "Baisser les impôts de production, financé par une réduction des aides fiscales.",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        },
+        {
+          "theme": "Éducation et climat",
+          "texte": "Plan sur dix ans de rénovation des établissements scolaires (« École-Climat-Solidarité »).",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        },
+        {
+          "theme": "Numérique",
+          "texte": "Donner un pouvoir contraignant à l'INESIA sur l'intelligence artificielle et garantir un recours humain pour tout refus décidé par un algorithme.",
+          "source": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://lcp.fr/actualites/presidentielle-2027-l-objectif-de-bernard-cazeneuve-est-de-devenir-president-de-la",
+        "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+      ],
+      "liens": [
+        {
+          "label": "Synthèse de la lettre aux Français (PDF, La Convention)",
+          "url": "https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf"
+        }
       ]
     },
     {
@@ -402,10 +481,40 @@
       "statut": "declare",
       "fonction": "Président de Debout la France",
       "declaration": "Candidature déclarée — sa quatrième à une présidentielle.",
-      "parcours": [],
-      "propositions": [],
+      "parcours": [
+        "Candidat aux présidentielles de 2012, 2017 et 2022",
+        "Interview à Sud Radio le 20 septembre 2026"
+      ],
+      "propositions": [
+        {
+          "theme": "Europe",
+          "texte": "Sortir de l'Union européenne, tout en disant ne pas vouloir la disparition de l'Europe.",
+          "source": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+        },
+        {
+          "theme": "Économie",
+          "texte": "Mettre en place un protectionnisme inspiré de pays d'Asie.",
+          "source": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+        },
+        {
+          "theme": "Ukraine",
+          "texte": "Retrait des troupes russes en échange d'une Ukraine neutre, hors OTAN et hors UE.",
+          "source": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+        },
+        {
+          "theme": "Institutions",
+          "texte": "Instaurer une démocratie directe sur le modèle suisse.",
+          "source": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+        },
+        {
+          "theme": "Carburants",
+          "texte": "Baisser le prix d'environ 50 centimes par litre (suppression des certificats d'économies d'énergie et de la TVA sur cette taxe, baisse des accises de 20 centimes).",
+          "source": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
       ]
     },
     {
@@ -414,12 +523,18 @@
       "nom": "Durif",
       "parti": "Sans étiquette",
       "statut": "declare",
-      "fonction": "",
-      "declaration": "Candidature déclarée ; aucun programme publié à ce jour.",
-      "parcours": [],
+      "fonction": "Se présente comme médium et guérisseur",
+      "declaration": "Candidature annoncée fin août 2026 dans une vidéo ; annonce un programme de 50 engagements.",
+      "parcours": [
+        "Connu depuis 2012 à Bugarach (Aude) sous le surnom qu'il revendique de « Christ cosmique »",
+        "Municipales 2013 à Arques (Aude) : 7 voix",
+        "Présidentielle 2017 : candidature déclarée, sans obtenir les 500 parrainages"
+      ],
       "propositions": [],
       "sources": [
-        "https://www.candidatspresidentielles2027.fr/"
+        "https://www.candidatspresidentielles2027.fr/",
+        "https://www.sudradio.fr/politique/qui-est-ce-sylvain-durif-le-christ-cosmique-candidat-a-la-presidentielle-2027",
+        "https://lcp.fr/actualites/presidentielle-2027-la-liste-des-candidats-declares-et-potentiels-444932"
       ]
     },
     {
@@ -451,7 +566,8 @@
       "fonction": "Député européen, fondateur de Place publique",
       "declaration": "Vainqueur de la primaire « Choisir 2027 » (9-11 octobre 2026) dès le premier tour avec 66,13 %.",
       "parcours": [
-        "Primaire organisée avec le PS, Place publique et la GRS"
+        "Primaire organisée avec le PS, Place publique et la GRS",
+        "Au Congrès des maires le 25 novembre 2026, annonce un meeting le 6 décembre 2026 au Paris Event Center"
       ],
       "propositions": [
         {
@@ -478,10 +594,16 @@
           "theme": "Jeunesse",
           "texte": "Un « Pass Mobilité Durable » à 1 € par jour pour les moins de 25 ans ; baisse de la CSG sur les bas salaires.",
           "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+        },
+        {
+          "theme": "Collectivités",
+          "texte": "Un « nouveau contrat social » entre les maires et l'État.",
+          "source": "https://www.publicsenat.fr/actualites/politique/nous-eviterons-le-duel-rassemblement-national-la-france-insoumise-au-second-tour-declare-raphael-glucksmann"
         }
       ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.publicsenat.fr/actualites/politique/nous-eviterons-le-duel-rassemblement-national-la-france-insoumise-au-second-tour-declare-raphael-glucksmann"
       ]
     },
     {
@@ -615,9 +737,12 @@
       "nom": "Lisnard",
       "parti": "Nouvelle Énergie",
       "statut": "declare",
-      "fonction": "Maire de Cannes",
+      "fonction": "Maire de Cannes, président de l'Association des maires de France (AMF)",
       "declaration": "A quitté Les Républicains le 31 mars 2026 et s'est déclaré le même jour ; appelle à une primaire ouverte de la droite.",
-      "parcours": [],
+      "parcours": [
+        "Réélu président de l'AMF le 25 novembre 2026 avec 72 % des voix (troisième mandat, après 2021)",
+        "Le 26 novembre 2026, huit députés du groupe Droite républicaine annoncent leur soutien dans une tribune publiée par Paris Match"
+      ],
       "propositions": [
         {
           "theme": "Finances publiques",
@@ -652,7 +777,9 @@
         }
       ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.publicsenat.fr/actualites/politique/david-lisnard-largement-reelu-a-la-tete-de-lassociation-des-maires-de-france",
+        "https://lcp.fr/actualites/presidentielle-2027-david-lisnard-candidat-de-l-automne-ou-ascension-durable-445996"
       ]
     },
     {
@@ -796,7 +923,8 @@
       "fonction": "Président d'Horizons, maire du Havre, ancien Premier ministre",
       "declaration": "Candidature annoncée en septembre 2024.",
       "parcours": [
-        "Programme « Croire en nous », volume 1 (142 propositions) présenté le 18 novembre 2026 ; volume 2 annoncé pour début 2027"
+        "Programme « Croire en nous », volume 1 (142 propositions) présenté le 18 novembre 2026 ; volume 2 annoncé pour début 2027",
+        "Le 24 novembre 2026 sur LCI, propose à David Lisnard un débat télévisé dans les semaines suivantes et refuse une primaire"
       ],
       "propositions": [
         {
@@ -852,7 +980,8 @@
       ],
       "sources": [
         "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-promet-des-reformes-radicales-pour-relancer-sa",
-        "https://www.boursorama.com/actualite-economique/actualites/philippe-exhorte-ses-soutiens-a-ne-pas-etre-spectateurs-de-la-campagne-presidentielle-6e72eb0ca2a7d47807659774c210f483"
+        "https://www.boursorama.com/actualite-economique/actualites/philippe-exhorte-ses-soutiens-a-ne-pas-etre-spectateurs-de-la-campagne-presidentielle-6e72eb0ca2a7d47807659774c210f483",
+        "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-defie-david-lisnard-et-lui-propose-un-debat"
       ]
     },
     {
@@ -945,10 +1074,24 @@
       "statut": "declare",
       "fonction": "Judoka, triple champion olympique en individuel",
       "declaration": "Candidature annoncée au Parisien le 9 novembre 2026 ; se dit « ni de droite, ni de gauche ».",
-      "parcours": [],
-      "propositions": [],
+      "parcours": [
+        "Le 25 novembre 2026 au Salon des maires, s'exprime sur l'Ukraine et sur le calendrier de l'élection"
+      ],
+      "propositions": [
+        {
+          "theme": "Institutions",
+          "texte": "Avancer la date de l'élection présidentielle (sans date précise).",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612"
+        },
+        {
+          "theme": "International",
+          "texte": "Opposé à l'envoi de militaires français en Ukraine ; se dit prêt à rassembler pour mettre fin à la guerre.",
+          "source": "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://lcp.fr/actualites/presidentielle-2027-l-ukraine-ce-n-est-pas-notre-guerre-declare-teddy-riner-445612"
       ]
     },
     {
@@ -1047,7 +1190,9 @@
       "fonction": "Président de Reconquête",
       "declaration": "Intention annoncée sur BFMTV le 17 septembre 2026, candidature officialisée au 20 h de TF1 le 10 novembre 2026.",
       "parcours": [
-        "2022 : 4e au premier tour avec 7,07 %"
+        "2022 : 4e au premier tour avec 7,07 %",
+        "Le 26 novembre 2026 sur CNews, annonce que 2027 sera sa dernière campagne présidentielle ; Sarah Knafo dirige sa campagne",
+        "Dit vouloir se présenter au premier tour même sans participer à une primaire de la droite et du centre"
       ],
       "propositions": [
         {
@@ -1068,7 +1213,8 @@
       ],
       "sources": [
         "https://www.lagazettefrance.fr/article/eric-zemmour-annonce-sa-candidature-a-la-presidentielle",
-        "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871"
+        "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871",
+        "https://www.boursorama.com/actualite-economique/actualites/presidentielle-c-est-ma-derniere-campagne-annonce-zemmour-cbc7f016deb54f4473e447df99830a20"
       ]
     }
   ],
