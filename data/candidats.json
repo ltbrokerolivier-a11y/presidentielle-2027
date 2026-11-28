@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_mise_a_jour": "2026-11-27",
+    "derniere_mise_a_jour": "2026-11-28",
     "premier_tour": "2027-04-18",
     "second_tour": "2027-05-02"
   },
@@ -37,6 +37,21 @@
     }
   ],
   "actualites": [
+    {
+      "date": "2026-11-27",
+      "texte": "Marine Le Pen présente ses propositions pour les outre-mer, dont une loi de programmation sur douze ans.",
+      "source": "https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux"
+    },
+    {
+      "date": "2026-11-27",
+      "texte": "Marine Le Pen propose d'obliger les médias à respecter le secret de l'enquête et de l'instruction.",
+      "source": "https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l"
+    },
+    {
+      "date": "2026-11-26",
+      "texte": "David Lisnard annonce un retrait temporaire de la présidence de l'AMF pendant la campagne.",
+      "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-jai-mon-plan-qui-est-prevu-depuis-le-depart-de-facon-minutieuse-defend-david-lisnard"
+    },
     {
       "date": "2026-11-26",
       "texte": "Éric Zemmour annonce sur CNews que 2027 sera sa dernière campagne présidentielle.",
@@ -314,12 +329,26 @@
       "fonction": "Président de la région Hauts-de-France",
       "declaration": "A confirmé le 27 août 2026 (université du Medef) qu'il serait candidat, avec une déclaration prévue en fin d'année ; envisage une candidature indépendante et refuse une primaire.",
       "parcours": [
-        "Ministre dans les gouvernements Raffarin, Villepin et Fillon (2004-2012)"
+        "Ministre dans les gouvernements Raffarin, Villepin et Fillon (2004-2012)",
+        "Fondateur du mouvement « Nous France »",
+        "Battu par Valérie Pécresse lors de la désignation du candidat LR en 2021"
       ],
-      "propositions": [],
+      "propositions": [
+        {
+          "theme": "Économie",
+          "texte": "Priorité donnée à la classe moyenne et réduction des dépenses sociales (idées présentées en août 2026).",
+          "source": "https://lcp.fr/actualites/presidentielle-xavier-bertrand-indique-tester-ses-idees-et-envisager-de-concourir-en"
+        },
+        {
+          "theme": "Retraites",
+          "texte": "Introduction d'une part de retraite par capitalisation.",
+          "source": "https://lcp.fr/actualites/presidentielle-xavier-bertrand-indique-tester-ses-idees-et-envisager-de-concourir-en"
+        }
+      ],
       "sources": [
         "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
-        "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election"
+        "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election",
+        "https://lcp.fr/actualites/presidentielle-xavier-bertrand-indique-tester-ses-idees-et-envisager-de-concourir-en"
       ]
     },
     {
@@ -673,7 +702,8 @@
       "fonction": "Présidente du groupe RN à l'Assemblée nationale",
       "declaration": "Candidature annoncée le 7 juillet 2026 au 20 h de TF1, après la réduction de sa peine d'inéligibilité par la cour d'appel de Paris.",
       "parcours": [
-        "Situation judiciaire : condamnée dans l'affaire des assistants parlementaires, elle s'est pourvue en cassation ; la décision d'appel lui permet d'être candidate."
+        "Situation judiciaire : condamnée dans l'affaire des assistants parlementaires, elle s'est pourvue en cassation ; la décision d'appel lui permet d'être candidate.",
+        "Annonce un déplacement à La Réunion puis à Mayotte à la mi-décembre 2026"
       ],
       "propositions": [
         {
@@ -710,11 +740,27 @@
           "theme": "Retraites",
           "texte": "Départ à 60 ou 62 ans selon l'âge d'entrée dans la vie active (40 annuités avant 20 ans, 42 après 23 ans) ; abrogation de la réforme de 2023 au 1er janvier 2028 ; second pilier obligatoire par capitalisation ; référendum en l'absence de majorité absolue.",
           "source": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+        },
+        {
+          "theme": "Justice",
+          "texte": "Obliger les médias à respecter le secret de l'enquête et de l'instruction, et alourdir les peines existantes en cas de violation.",
+          "source": "https://lcp.fr/actualites/si-elle-est-elue-marine-le-pen-veut-obliger-les-journalistes-a-respecter-le-secret-de-l"
+        },
+        {
+          "theme": "Outre-mer",
+          "texte": "Loi de programmation pour les outre-mer sur douze ans, avec objectifs chiffrés, présentée dans les premiers mois du mandat ; priorité à la sécurité et à l'accès à l'eau potable.",
+          "source": "https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux"
+        },
+        {
+          "theme": "Outre-mer",
+          "texte": "« Bouclier tarifaire » garantissant à chaque résident d'outre-mer un aller-retour annuel vers l'Hexagone à prix encadré ; création d'un ministère d'État des Outre-mer.",
+          "source": "https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux"
         }
       ],
       "sources": [
         "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
-        "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen"
+        "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-contient-la-reforme-des-retraites-presentee-par-marine-le-pen",
+        "https://lcp.fr/actualites/pouvoir-d-achat-securite-aller-retour-dans-l-hexagone-ce-que-promet-marine-le-pen-aux"
       ]
     },
     {
@@ -741,7 +787,8 @@
       "declaration": "A quitté Les Républicains le 31 mars 2026 et s'est déclaré le même jour ; appelle à une primaire ouverte de la droite.",
       "parcours": [
         "Réélu président de l'AMF le 25 novembre 2026 avec 72 % des voix (troisième mandat, après 2021)",
-        "Le 26 novembre 2026, huit députés du groupe Droite républicaine annoncent leur soutien dans une tribune publiée par Paris Match"
+        "Le 26 novembre 2026, huit députés du groupe Droite républicaine annoncent leur soutien dans une tribune publiée par Paris Match",
+        "Le 26 novembre 2026, annonce qu'il se mettra temporairement en retrait de la présidence de l'AMF pendant la campagne (modalités fixées lors d'un bureau le 15 décembre)"
       ],
       "propositions": [
         {
@@ -779,7 +826,8 @@
       "sources": [
         "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
         "https://www.publicsenat.fr/actualites/politique/david-lisnard-largement-reelu-a-la-tete-de-lassociation-des-maires-de-france",
-        "https://lcp.fr/actualites/presidentielle-2027-david-lisnard-candidat-de-l-automne-ou-ascension-durable-445996"
+        "https://lcp.fr/actualites/presidentielle-2027-david-lisnard-candidat-de-l-automne-ou-ascension-durable-445996",
+        "https://www.publicsenat.fr/actualites/politique/presidentielle-jai-mon-plan-qui-est-prevu-depuis-le-depart-de-facon-minutieuse-defend-david-lisnard"
       ]
     },
     {
@@ -991,11 +1039,23 @@
       "parti": "Les Patriotes",
       "statut": "declare",
       "fonction": "Président des Patriotes",
-      "declaration": "Candidature déclarée.",
-      "parcours": [],
-      "propositions": [],
+      "declaration": "Candidature annoncée le 9 mai 2026 sur France 2 ; dit qu'il se retirerait si Philippe de Villiers se présentait.",
+      "parcours": [
+        "Ancien vice-président du Front national, qu'il quitte après la présidentielle de 2017",
+        "Ancien député européen",
+        "Liste aux européennes de 2024 : moins de 1 % des voix",
+        "En 2022, n'a obtenu qu'un parrainage sur les 500 nécessaires"
+      ],
+      "propositions": [
+        {
+          "theme": "Europe",
+          "texte": "Sortie de la France de l'Union européenne et de l'OTAN.",
+          "source": "https://www.sudradio.fr/politique/je-suis-candidat-florian-philippot-se-lance-pour-la-presidentielle-de-2027"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.sudradio.fr/politique/je-suis-candidat-florian-philippot-se-lance-pour-la-presidentielle-de-2027"
       ]
     },
     {
@@ -1018,12 +1078,38 @@
       "nom": "Polony",
       "parti": "Nous sommes la France",
       "statut": "declare",
-      "fonction": "Journaliste et essayiste",
+      "fonction": "Journaliste et essayiste, directrice de la revue L'Audace",
       "declaration": "Candidature annoncée sur France Inter le 14 octobre 2026.",
-      "parcours": [],
-      "propositions": [],
+      "parcours": [
+        "Ancienne directrice de la rédaction de Marianne",
+        "Lance le mouvement « Nous sommes la France » en septembre 2026"
+      ],
+      "propositions": [
+        {
+          "theme": "Agriculture",
+          "texte": "Priorité à la production française dans la commande publique ; clauses miroirs et traçabilité obligatoire dans les plats préparés.",
+          "source": "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille"
+        },
+        {
+          "theme": "Agriculture",
+          "texte": "Plan de soutien aux revenus des agriculteurs et renforcement de la loi Egalim ; maintien d'une politique agricole commune européenne.",
+          "source": "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille"
+        },
+        {
+          "theme": "Eau",
+          "texte": "Planification publique de la gestion de l'eau (récupération des eaux grises, stockage, irrigation raisonnée).",
+          "source": "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille"
+        },
+        {
+          "theme": "Énergie",
+          "texte": "Renationalisation d'EDF ; taxe sur les superprofits des carburants et taxe flottante sur les produits pétroliers.",
+          "source": "https://www.sudradio.fr/sud-radio/natacha-polony-je-lance-un-appel-aux-orphelins-de-la-politique"
+        }
+      ],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille",
+        "https://www.sudradio.fr/sud-radio/natacha-polony-je-lance-un-appel-aux-orphelins-de-la-politique"
       ]
     },
     {
@@ -1116,10 +1202,13 @@
       "statut": "declare",
       "fonction": "Secrétaire national du PCF, maire de Saint-Amand-les-Eaux",
       "declaration": "Candidature validée par les militants, annoncée le 6 septembre 2026 — sa deuxième consécutive.",
-      "parcours": [],
+      "parcours": [
+        "Candidat du PCF à la présidentielle de 2022, avec un programme de 180 propositions"
+      ],
       "propositions": [],
       "sources": [
-        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
+        "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/",
+        "https://www.publicsenat.fr/actualites/politique/presidentielle-fabien-roussel-presente-180-propositions-pour-une-france-des-jours"
       ]
     },
     {
@@ -1246,7 +1335,7 @@
     {
       "nom": "Emmanuel Maurel",
       "parti": "Gauche républicaine et socialiste",
-      "texte": "Battu à la primaire « Choisir 2027 » (5,92 %).",
+      "texte": "Battu à la primaire « Choisir 2027 » (5,80 %).",
       "source": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"
     },
     {
